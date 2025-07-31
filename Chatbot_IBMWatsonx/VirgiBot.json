@@ -1,0 +1,5668 @@
+{
+  "intents": [
+    {
+      "intent": "afirmación",
+      "examples": [
+        {
+          "text": "adelante"
+        },
+        {
+          "text": "claro"
+        },
+        {
+          "text": "claro, dime porfa"
+        },
+        {
+          "text": "dime"
+        },
+        {
+          "text": "Eso me interesa, sigue."
+        },
+        {
+          "text": "estaría muy bien"
+        },
+        {
+          "text": "No he terminado, sigue."
+        },
+        {
+          "text": "por supuesto"
+        },
+        {
+          "text": "Puedes continuar."
+        },
+        {
+          "text": "quiero saber más"
+        },
+        {
+          "text": "sí anda"
+        },
+        {
+          "text": "sí, continúa"
+        },
+        {
+          "text": "síi"
+        },
+        {
+          "text": "sí, por favor"
+        },
+        {
+          "text": "Vale, prosigue."
+        }
+      ],
+      "description": "sí"
+    },
+    {
+      "intent": "CHI-Bot",
+      "examples": [
+        {
+          "text": "¿cómo funcionas?"
+        },
+        {
+          "text": "¿Con qué tipo de robot estoy interactuando?"
+        },
+        {
+          "text": "Cuántos idiomas hablas?"
+        },
+        {
+          "text": "De qué país eres?"
+        },
+        {
+          "text": "Dime tu nombre completo."
+        },
+        {
+          "text": "Dónde estás ahora mismo?"
+        },
+        {
+          "text": "¿Eres capaz de sentir emociones?"
+        },
+        {
+          "text": "¿eres real?"
+        },
+        {
+          "text": "eres una persona"
+        },
+        {
+          "text": "¿estás vivo?"
+        },
+        {
+          "text": "hablo con una máquina"
+        },
+        {
+          "text": "humano"
+        },
+        {
+          "text": "personalidad"
+        },
+        {
+          "text": "¿por qué existes?"
+        },
+        {
+          "text": "¿Puede darme información general sobre usted?"
+        },
+        {
+          "text": "¿Puede explicarme la diferencia entre este sistema y cualquier otro?"
+        },
+        {
+          "text": "puedes tomar decisiones"
+        },
+        {
+          "text": "Qué color tienen tus ojos?"
+        },
+        {
+          "text": "¿qué sabes de mí?"
+        },
+        {
+          "text": "Qué te gusta hacer en tu tiempo libre?"
+        },
+        {
+          "text": "quién eres?"
+        },
+        {
+          "text": "Quiero entender cómo funcionas"
+        },
+        {
+          "text": "¿sabes algo de mí?"
+        },
+        {
+          "text": "Tienes algún interés?"
+        },
+        {
+          "text": "¿Tienes emociones?"
+        }
+      ],
+      "description": "Solicitar atributos personales genéricos."
+    },
+    {
+      "intent": "CHI-Else-wip",
+      "examples": [
+        {
+          "text": "Ahora quiero saber otra cosa"
+        },
+        {
+          "text": "Cambiar de tema y volver a opciones"
+        },
+        {
+          "text": "consultar otro asunto"
+        },
+        {
+          "text": "otra consulta"
+        },
+        {
+          "text": "otra cosa"
+        },
+        {
+          "text": "otra cosa que quiero saber"
+        },
+        {
+          "text": "otras opciones"
+        },
+        {
+          "text": "¿Puedo preguntarte otra cosa?"
+        },
+        {
+          "text": "volver a otras consultas"
+        }
+      ],
+      "description": "Volver a las opciones iniciales"
+    },
+    {
+      "intent": "CHI-Goodbye",
+      "examples": [
+        {
+          "text": "adiós"
+        },
+        {
+          "text": "Buenas tardes."
+        },
+        {
+          "text": "cierro sesión"
+        },
+        {
+          "text": "Cuídate!"
+        },
+        {
+          "text": "está todo bien"
+        },
+        {
+          "text": "Hablamos luego."
+        },
+        {
+          "text": "hablamos más tarde"
+        },
+        {
+          "text": "Hablaremos más tarde."
+        },
+        {
+          "text": "hasta la próxima"
+        },
+        {
+          "text": "hasta luego"
+        },
+        {
+          "text": "me voy"
+        },
+        {
+          "text": "¡Muchas gracias, adiós!"
+        },
+        {
+          "text": "nos vemos"
+        },
+        {
+          "text": "que estés bien"
+        },
+        {
+          "text": "Qué tengas una buena tarde."
+        },
+        {
+          "text": "¡Salud!"
+        },
+        {
+          "text": "terminé por ahora"
+        },
+        {
+          "text": "Un saludo."
+        },
+        {
+          "text": "Usted es maravilloso. Gracias por su ayuda."
+        },
+        {
+          "text": "Vaya usted con Diós!"
+        },
+        {
+          "text": "Ya me voy."
+        },
+        {
+          "text": "ya no necesito nada más"
+        }
+      ],
+      "description": "Fin de la conversacion."
+    },
+    {
+      "intent": "CHI-Hate",
+      "examples": [
+        {
+          "text": "basura"
+        },
+        {
+          "text": "cómo te atreves a tratarme así"
+        },
+        {
+          "text": "das asco"
+        },
+        {
+          "text": "eres tonto"
+        },
+        {
+          "text": "eres un desastre"
+        },
+        {
+          "text": "gilipollas"
+        },
+        {
+          "text": "me caes mal"
+        },
+        {
+          "text": "no sirves para nada"
+        },
+        {
+          "text": "no tienes ni idea"
+        },
+        {
+          "text": "qué inútil eres"
+        },
+        {
+          "text": "que te apaguen ya"
+        }
+      ],
+      "description": "Se da respuesta a un insulto"
+    },
+    {
+      "intent": "CHI-Owner",
+      "examples": [
+        {
+          "text": "creador"
+        },
+        {
+          "text": "¿Esto lo ha hecho la universidad?"
+        },
+        {
+          "text": "¿Programado por un estudiante?"
+        },
+        {
+          "text": "proprietario"
+        },
+        {
+          "text": "quién eres y por qué existes"
+        },
+        {
+          "text": "¿quién es tu creador?"
+        },
+        {
+          "text": "¿quién ha decidido crearte?"
+        },
+        {
+          "text": "quién te creó"
+        },
+        {
+          "text": "¿quién te ha hecho?"
+        }
+      ],
+      "description": "Cuestiones sobre quién ha desarrollado el chatbot"
+    },
+    {
+      "intent": "CHI-ThankYou",
+      "examples": [
+        {
+          "text": "agradecimientos"
+        },
+        {
+          "text": "estoy profundamente en deuda contigo"
+        },
+        {
+          "text": "gracias"
+        },
+        {
+          "text": "lo aprecio"
+        },
+        {
+          "text": "mil gracias"
+        },
+        {
+          "text": "muchas gracias"
+        },
+        {
+          "text": "muy agradecido"
+        },
+        {
+          "text": "qué bien"
+        },
+        {
+          "text": "te agradezco"
+        },
+        {
+          "text": "te doy las gracias"
+        },
+        {
+          "text": "TIENE BUENA PINTA"
+        }
+      ],
+      "description": "Agradecimientos"
+    },
+    {
+      "intent": "CHI-Virgil",
+      "examples": [
+        {
+          "text": "¿a qué se debe tu personalidad?"
+        },
+        {
+          "text": "literatura griega"
+        },
+        {
+          "text": "¿Motivo de llamarte Virgilio?"
+        },
+        {
+          "text": "motivo de tu nombre"
+        },
+        {
+          "text": "poeta divina comedia"
+        },
+        {
+          "text": "Poeta romano inspiración"
+        },
+        {
+          "text": "¿Por qué te llamas Virgibot?"
+        },
+        {
+          "text": "¿Por qué Virgilio?"
+        },
+        {
+          "text": "Razón de ese nombre"
+        },
+        {
+          "text": "Te llamas Virgilio"
+        },
+        {
+          "text": "Tu nombre es virgilio"
+        },
+        {
+          "text": "¿Virgibot por qué?"
+        },
+        {
+          "text": "Virgilio"
+        }
+      ],
+      "description": "Se responde a cuestiones sobre la inspiración en Virgilio"
+    },
+    {
+      "intent": "DEF-Welcome",
+      "examples": [
+        {
+          "text": "buenass"
+        },
+        {
+          "text": "buenas tardes"
+        },
+        {
+          "text": "buenos días"
+        },
+        {
+          "text": "chao"
+        },
+        {
+          "text": "Eyy"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "Hola hola qué tal"
+        },
+        {
+          "text": "qué tal"
+        },
+        {
+          "text": "saludos"
+        }
+      ],
+      "description": "Saluda al bot."
+    },
+    {
+      "intent": "negación",
+      "examples": [
+        {
+          "text": "eso es todo"
+        },
+        {
+          "text": "eso será todo"
+        },
+        {
+          "text": "Está bien así, no quiero"
+        },
+        {
+          "text": "he tenido bastante"
+        },
+        {
+          "text": "me ha quedado claro"
+        },
+        {
+          "text": "nada más"
+        },
+        {
+          "text": "negativo"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "no, está bien así, gracias"
+        },
+        {
+          "text": "no, gracias"
+        },
+        {
+          "text": "no me cuentes más"
+        },
+        {
+          "text": "no, nada más"
+        },
+        {
+          "text": "no quiero seguir"
+        },
+        {
+          "text": "no sigas"
+        },
+        {
+          "text": "no te preocupes, así está bien"
+        },
+        {
+          "text": "por ahora está bien"
+        },
+        {
+          "text": "ya lo entendí"
+        }
+      ],
+      "description": "no"
+    },
+    {
+      "intent": "QNA-ADMAT-Criterios",
+      "examples": [
+        {
+          "text": "carta motivación"
+        },
+        {
+          "text": "¿Cómo se evalúan las candidaturas?"
+        },
+        {
+          "text": "¿Cómo se valoran los méritos de acceso?"
+        },
+        {
+          "text": "Criterios de admisión al máster"
+        },
+        {
+          "text": "criterio selección"
+        },
+        {
+          "text": "nota de acceso calcular"
+        },
+        {
+          "text": "ponderación de méritos"
+        },
+        {
+          "text": "Ponderación méritos de acceso"
+        },
+        {
+          "text": "proceso selección"
+        },
+        {
+          "text": "¿Qué aspectos considera el comité de admisión?"
+        },
+        {
+          "text": "¿Qué criterios se usan para decidir quién entra en el máster?"
+        },
+        {
+          "text": "¿Qué méritos cuentan más para ser admitido?"
+        },
+        {
+          "text": "¿Qué requisitos se tienen en cuenta para la matriculación?"
+        },
+        {
+          "text": "¿Se valora la experiencia laboral para entrar?"
+        },
+        {
+          "text": "Valor de méritos para inscribirse al máster"
+        }
+      ],
+      "description": "El usuario quiere conocer los criterios de admisión y la ponderación de los méritos"
+    },
+    {
+      "intent": "QNA-ADMAT-Extranjero",
+      "examples": [
+        {
+          "text": "¿Cómo me matriculo si no soy español?"
+        },
+        {
+          "text": "¿Es posible estudiar este máster con un título latinoamericano?"
+        },
+        {
+          "text": "estudiar el máster si soy extranjero"
+        },
+        {
+          "text": "estudiar si no soy español"
+        },
+        {
+          "text": "¿Hay requisitos diferentes para extranjeros?"
+        },
+        {
+          "text": "¿Puedo acceder al máster con un grado de otro país?"
+        },
+        {
+          "text": "¿Puedo hacer la preinscripción con estudios hechos fuera de España?"
+        },
+        {
+          "text": "¿Qué pasos debo seguir si mi título no es español?"
+        },
+        {
+          "text": "tengo titulo extranjero"
+        },
+        {
+          "text": "Tengo un título extranjero, ¿puedo inscribirme?"
+        }
+      ],
+      "description": "Consultas de información general de matrícula para alumnos con títulos extranjeros"
+    },
+    {
+      "intent": "QNA-ADMAT-General",
+      "examples": [
+        {
+          "text": "admisión"
+        },
+        {
+          "text": "admisión al máster"
+        },
+        {
+          "text": "admisión y matrícula"
+        },
+        {
+          "text": "asistencia con proceso de admision"
+        },
+        {
+          "text": "ayuda con la matrícula"
+        },
+        {
+          "text": "dudas sobre procedimiento de matrícula"
+        },
+        {
+          "text": "matrícula"
+        },
+        {
+          "text": "matricularse al curso"
+        },
+        {
+          "text": "procedimiento de admisión"
+        },
+        {
+          "text": "quiero apuntarme al master"
+        },
+        {
+          "text": "solicito asistencia para completar matrícula"
+        }
+      ],
+      "description": "El visitante pide información general sobre matrícula y admisión"
+    },
+    {
+      "intent": "QNA-ADMAT-MatrAsignaturas",
+      "examples": [
+        {
+          "text": "Cómo matricularme en asignaturas"
+        },
+        {
+          "text": "En qué asignaturas me matriculo"
+        },
+        {
+          "text": "Incidencia matricula en formacion específica"
+        },
+        {
+          "text": "itinerarios"
+        },
+        {
+          "text": "Matriculacion en asignaturas del mismo itineriario"
+        },
+        {
+          "text": "No me deja matricularme en formación específica"
+        },
+        {
+          "text": "No puedo matricularme en complementos de informática"
+        },
+        {
+          "text": "Problema en matriculación solapamiento"
+        },
+        {
+          "text": "Puedo mezclar asignaturas de diferentes itinerarios"
+        },
+        {
+          "text": "¿Qué hago si dos asignaturas se pisan en horario"
+        },
+        {
+          "text": "Se me solapan las asignaturas"
+        },
+        {
+          "text": "Tengo problemas por solapamiento entre asignaturas"
+        }
+      ],
+      "description": "El visitante solicita información sobre la matriculación en asignaturas específicas, así como problemas de solapamiento"
+    },
+    {
+      "intent": "QNA-ADMAT-Pago",
+      "examples": [
+        {
+          "text": "Cómo pagar la matrícula de forma única"
+        },
+        {
+          "text": "Cómo pagar si soy estudiante extranjero"
+        },
+        {
+          "text": "¿Cuáles son las formas de pago disponibles?"
+        },
+        {
+          "text": "¿Cuándo y cómo se paga la matrícula?"
+        },
+        {
+          "text": "¿El pago es con tarjeta o por transferencia?"
+        },
+        {
+          "text": "Método de pago a plazos"
+        },
+        {
+          "text": "Método para abonar el importe total del máster"
+        },
+        {
+          "text": "Métodos de pago"
+        },
+        {
+          "text": "Opciones de pago para estudiantes internacionales"
+        },
+        {
+          "text": "¿Se puede domiciliar el pago?"
+        }
+      ],
+      "description": "Preguntas relacionadas con los métodos y plazos de pago"
+    },
+    {
+      "intent": "QNA-ADMAT-Plataforma",
+      "examples": [
+        {
+          "text": "¿Desde qué web se gestiona la matrícula?"
+        },
+        {
+          "text": "Dónde hacer la matrícula"
+        },
+        {
+          "text": "¿Dónde se hace para inscribirse?"
+        },
+        {
+          "text": "En qué página tengo que hacer la preinscripción"
+        },
+        {
+          "text": "¿En qué plataforma se hace la matrícula?"
+        },
+        {
+          "text": "Página para hacer los trámites"
+        },
+        {
+          "text": "Plataforma"
+        },
+        {
+          "text": "Plataforma matrícula"
+        },
+        {
+          "text": "Plataforma preinscripción"
+        },
+        {
+          "text": "Portal para apuntare en el máster"
+        }
+      ],
+      "description": "El usuario solicita información sobre la plataforma de Matrícula y los pasos a seguir"
+    },
+    {
+      "intent": "QNA-ADMAT-Plazos",
+      "examples": [
+        {
+          "text": "cierre de plazo"
+        },
+        {
+          "text": "Comprobar fechas para inscripción"
+        },
+        {
+          "text": "¿Cuál es la fecha límite para la matrícula?"
+        },
+        {
+          "text": "¿Cuándo abren las inscripciones al máster?"
+        },
+        {
+          "text": "¿Cuándo empiezan los trámites de inscripción?"
+        },
+        {
+          "text": "Cuándo hacer la matrícula"
+        },
+        {
+          "text": "¿Dónde puedo ver el calendario de plazos?"
+        },
+        {
+          "text": "Fechas importantes del proceso de admisión"
+        },
+        {
+          "text": "¿Hasta qué día puedo preinscribirme?"
+        },
+        {
+          "text": "importa el orden de apuntarse"
+        },
+        {
+          "text": "orden inscripción"
+        },
+        {
+          "text": "Plazo de preinscripción"
+        },
+        {
+          "text": "Plazos de matrícula"
+        },
+        {
+          "text": "¿Puedo inscribirme fuera de plazo?"
+        }
+      ],
+      "description": "El usuario consulta el plazo de preinscripción y matrícula y si el orden de solicitudes tiene importancia en la asignación final"
+    },
+    {
+      "intent": "QNA-ADMAT-Precio",
+      "examples": [
+        {
+          "text": "Coste del máster para estudiantes españoles"
+        },
+        {
+          "text": "¿Cuál es el coste aproximado del máster completo?"
+        },
+        {
+          "text": "¿Cuánto cuesta el máster?"
+        },
+        {
+          "text": "¿Cuánto hay que pagar por estudiar este curso?"
+        },
+        {
+          "text": "¿Dónde puedo consultar las tasas académicas?"
+        },
+        {
+          "text": "¿El coste es diferente si soy extranjero?"
+        },
+        {
+          "text": "¿Hay diferencias de precio según la nacionalidad?"
+        },
+        {
+          "text": "Precio del curso si soy español"
+        },
+        {
+          "text": "Precio máster estudiante extranjero"
+        },
+        {
+          "text": "¿Qué importe debo abonar para inscribirme?"
+        }
+      ],
+      "description": "Solicitudes de información sobre el precio por crédito y el coste total del Máster"
+    },
+    {
+      "intent": "QNA-EST-Actividades",
+      "examples": [
+        {
+          "text": "Actividades complementarias"
+        },
+        {
+          "text": "actividades internacionales"
+        },
+        {
+          "text": "Colaboración con Paris8"
+        },
+        {
+          "text": "conferencias especiales o invitados."
+        },
+        {
+          "text": "Cuántas conferencias se hacen al año?"
+        },
+        {
+          "text": "Infórmame de los próximos talleres"
+        },
+        {
+          "text": "¿Organizáis eventos externos o colaboraciones con otras universidades?"
+        },
+        {
+          "text": "Para qué sirven los talleres?"
+        },
+        {
+          "text": "Proyecto compartido con la Universidad de París"
+        },
+        {
+          "text": "¿Qué actividades organiza el máster además de las clases?"
+        },
+        {
+          "text": "Se organizan conferencias?"
+        }
+      ],
+      "description": "Consultas sobre las actividades especiales que se llevan a cabo"
+    },
+    {
+      "intent": "QNA-EST-Alumni",
+      "examples": [
+        {
+          "text": "Alumni del Máster"
+        },
+        {
+          "text": "¿Cómo les ha ido a los antiguos alumnos?"
+        },
+        {
+          "text": "Conocer las experiencias de los egresados"
+        },
+        {
+          "text": "Egresados experiencia profesional"
+        },
+        {
+          "text": "¿En qué trabajan los antiguos alumnos?"
+        },
+        {
+          "text": "Estudiantes antiguos del curso"
+        },
+        {
+          "text": "¿Existen entrevistas o casos de éxito de egresados?"
+        },
+        {
+          "text": "Experiencias de estudiantes pasados"
+        },
+        {
+          "text": "Lista de alumni"
+        },
+        {
+          "text": "Quiero contactar con algun antiguo estudiante"
+        }
+      ],
+      "description": "Consultas relacionadas con egresados del Máster"
+    },
+    {
+      "intent": "QNA-EST-CampusVirt",
+      "examples": [
+        {
+          "text": "Ayuda, no puedo entrar al moodle"
+        },
+        {
+          "text": "Campus Virtual"
+        },
+        {
+          "text": "¿Cómo puedo entrar al campus virtual?"
+        },
+        {
+          "text": "Cómo se accede al campus virtual"
+        },
+        {
+          "text": "¿Desde qué plataforma puedo entrar al moodle?"
+        },
+        {
+          "text": "Las enseñanzas se exponen en moodle?"
+        },
+        {
+          "text": "No me aparecen las asignaturas en el campus virtual"
+        },
+        {
+          "text": "¿Qué es exactamente el campus virtual?"
+        },
+        {
+          "text": "qué plataforma usan los profesores para colgar las tareas"
+        },
+        {
+          "text": "¿Se usa Moodle?"
+        },
+        {
+          "text": "¿se utiliza mucho el campus virtual?"
+        }
+      ],
+      "description": "Consultas sobre el Campus Virtual y la naturaleza de la plataforma"
+    },
+    {
+      "intent": "QNA-EST-Prácticas",
+      "examples": [
+        {
+          "text": "Cómo se extraen las notas de las prácticas"
+        },
+        {
+          "text": "¿Cuántas horas de prácticas hay que hacer?"
+        },
+        {
+          "text": "¿Dónde hacen prácticas los estudiantes?"
+        },
+        {
+          "text": "¿En qué consisten las prácticas del máster?"
+        },
+        {
+          "text": "En qué empresas puedo hacer prácticas?"
+        },
+        {
+          "text": "Evaluación de las prácticas curriculares"
+        },
+        {
+          "text": "horas que hacer en las prácticas"
+        },
+        {
+          "text": "Ofertas de prácticas sectores"
+        },
+        {
+          "text": "Perfiles de las prácticas"
+        },
+        {
+          "text": "Prácticas curriculares"
+        },
+        {
+          "text": "Prácticas destinos"
+        },
+        {
+          "text": "¿Qué perfiles se buscan en las prácticas del curso?"
+        },
+        {
+          "text": "¿Qué tipo de tareas se hacen en las prácticas?"
+        }
+      ],
+      "description": "Preguntas relacionadas con las prácticas curriculares y sus detalles"
+    },
+    {
+      "intent": "QNA-EST-SugyRecl",
+      "examples": [
+        {
+          "text": "Buzón de sugerencias"
+        },
+        {
+          "text": "¿Cómo trata el Máster las reclamaciones?"
+        },
+        {
+          "text": "¿Dónde puedo dejar una sugerencia sobre el máster?"
+        },
+        {
+          "text": "¿Existe un formulario para quejarse de algo?"
+        },
+        {
+          "text": "¿Las sugerencias se toman en cuenta realmente?"
+        },
+        {
+          "text": "Me gustaría hacer una reclamación"
+        },
+        {
+          "text": "Me gustaría poner una reclamación"
+        },
+        {
+          "text": "¿Quién gestiona las reclamaciones del curso?"
+        },
+        {
+          "text": "¿Quién recoge las quejas de los estudiantes del máster?"
+        },
+        {
+          "text": "¿Tenéis algún buzón de quejas o propuestas?"
+        }
+      ],
+      "description": "El usuario está interesado en el buzón de sugerencias y reclamaciones"
+    },
+    {
+      "intent": "QNA-INFGEN-Colaboradores",
+      "examples": [
+        {
+          "text": "Colaboradores"
+        },
+        {
+          "text": "¿el máster tiene acuerdos con algunas empresas?"
+        },
+        {
+          "text": "empresas que ayudan al máster"
+        },
+        {
+          "text": "entidades colaboradoras"
+        },
+        {
+          "text": "Instituciones colaboradoras"
+        },
+        {
+          "text": "Instituciones colaboradoras del máster"
+        },
+        {
+          "text": "Instituciones que ayudan al máster"
+        },
+        {
+          "text": "posibles destinos que ayudan al máster"
+        },
+        {
+          "text": "¿Qué acuerdos tiene el Máster?"
+        }
+      ],
+      "description": "Entidades colaboradoras"
+    },
+    {
+      "intent": "QNA-INFGEN-Descriptores",
+      "examples": [
+        {
+          "text": "carga lectiva del curso"
+        },
+        {
+          "text": "carga media trabajo semanal"
+        },
+        {
+          "text": "carreras relacionadas"
+        },
+        {
+          "text": "créditos"
+        },
+        {
+          "text": "¿cuántas vacantes hay?"
+        },
+        {
+          "text": "Cuánto dura"
+        },
+        {
+          "text": "Cuántos créditos tiene"
+        },
+        {
+          "text": "Descriptores operativos"
+        },
+        {
+          "text": "¿En qué idioma se cursa?"
+        },
+        {
+          "text": "genial, y cuáles son los descriptores operativos?"
+        },
+        {
+          "text": "grados compatibles"
+        },
+        {
+          "text": "horas de estudio"
+        },
+        {
+          "text": "modalidad del máster?"
+        },
+        {
+          "text": "número mínimo de créditos del que puedo matricularme"
+        },
+        {
+          "text": "¿Plazas disponibles?"
+        },
+        {
+          "text": "¿presencial o virtual?"
+        },
+        {
+          "text": "tiempo dedicación"
+        }
+      ],
+      "description": "Descriptores formales"
+    },
+    {
+      "intent": "QNA-INFGEN-Destinatarios",
+      "examples": [
+        {
+          "text": "¿alumino modelo de este posgrado?"
+        },
+        {
+          "text": "de qué rama deben venir los futuros alumnos?"
+        },
+        {
+          "text": "destinatarios"
+        },
+        {
+          "text": "esto es para personas en activo"
+        },
+        {
+          "text": "para quién es"
+        },
+        {
+          "text": "¿para quién va dirigido este curso?"
+        },
+        {
+          "text": "perfil candidato"
+        },
+        {
+          "text": "Perfil de ingreso Máster"
+        },
+        {
+          "text": "prototipo de perfil de ingreso"
+        },
+        {
+          "text": "público objetivo"
+        },
+        {
+          "text": "puedo entrar si soy de letras"
+        },
+        {
+          "text": "¿qué debería estudiar para cursar este máster?"
+        },
+        {
+          "text": "¿qué estudiar para entrar a este Máster?"
+        },
+        {
+          "text": "¿qué perfil de estudiante es ideal?"
+        },
+        {
+          "text": "titulaciones deseadas para acceder a este máster"
+        }
+      ],
+      "description": "Destinatarios para los que se diseña el Máster"
+    },
+    {
+      "intent": "QNA-INFGEN-What",
+      "examples": [
+        {
+          "text": "concepto de máster en letras digitales"
+        },
+        {
+          "text": "¿Cuál es el enfoque del máster?"
+        },
+        {
+          "text": "de qué trata"
+        },
+        {
+          "text": "¿de qué va este master?"
+        },
+        {
+          "text": "¿De qué va este posgrado?"
+        },
+        {
+          "text": "describir esto"
+        },
+        {
+          "text": "¿En qué consiste esto?"
+        },
+        {
+          "text": "en qué consiste esto"
+        },
+        {
+          "text": "para qué sirve este curso"
+        },
+        {
+          "text": "¿Qué es el Máster en Letras Digitales?"
+        },
+        {
+          "text": "qué es esto exactamente"
+        },
+        {
+          "text": "qué formación hay"
+        },
+        {
+          "text": "qué se aprende"
+        }
+      ],
+      "description": "Descripción general del Máster"
+    },
+    {
+      "intent": "QNA-INFGEN-Why",
+      "examples": [
+        {
+          "text": "¿cómo funciona y por qué estudiarlo?"
+        },
+        {
+          "text": "debería apuntarme a este máster?"
+        },
+        {
+          "text": "¿Debería estudiar este master para crecer profesionalmente?"
+        },
+        {
+          "text": "¿esto es útil para mi carrera profesional?"
+        },
+        {
+          "text": "¿Matricularme aquí sería una buena idea?"
+        },
+        {
+          "text": "motivos para estudiar este Máster"
+        },
+        {
+          "text": "¿para qué me serviría esto en el futuro?"
+        },
+        {
+          "text": "¿para qué me sirve estudiar esto?"
+        },
+        {
+          "text": "por qué apuntarme"
+        },
+        {
+          "text": "¿por qué apuntarme a este máster?"
+        },
+        {
+          "text": "Por qué deberia decidirme por este curso"
+        },
+        {
+          "text": "qué aprendo en este máster"
+        },
+        {
+          "text": "¿Qué valor aporta este curso frente a otros?"
+        },
+        {
+          "text": "razones por las cuales matricularme"
+        },
+        {
+          "text": "vale la pena"
+        }
+      ],
+      "description": "Por qué estudiar este Máster"
+    },
+    {
+      "intent": "QNA-LOC-Cafeterías",
+      "examples": [
+        {
+          "text": "¿Algún bar cerca para almorzar?"
+        },
+        {
+          "text": "Cafeterías en el campus"
+        },
+        {
+          "text": "comer en el campus"
+        },
+        {
+          "text": "¿Dónde come la gente que estudia aquí?"
+        },
+        {
+          "text": "¿Dónde puedo tomar un café cerca?"
+        },
+        {
+          "text": "¿Dónde se suele comer por aquí?"
+        },
+        {
+          "text": "¿Hay alguna cafetería en el edificio?"
+        },
+        {
+          "text": "Hay sitios para tomar algo cerca de clase?"
+        },
+        {
+          "text": "¿La cafetería está abierta al salir de clase?"
+        },
+        {
+          "text": "¿Puedo comer en algún sitio?"
+        },
+        {
+          "text": "¿Puedo comprar algo de comer en la facultad?"
+        }
+      ],
+      "description": "Opciones cercanas de servicios de restauración"
+    },
+    {
+      "intent": "QNA-LOC-Campus",
+      "examples": [
+        {
+          "text": "Barrio de madrid donde se encuentra la universidad"
+        },
+        {
+          "text": "Campus de Ciudad Universitaria"
+        },
+        {
+          "text": "Ciudad Universitaria"
+        },
+        {
+          "text": "Ciudad Universitaria está cerca del centro de Madrid?"
+        },
+        {
+          "text": "Dónde está la universidad"
+        },
+        {
+          "text": "¿Dónde se imparte este máster?"
+        },
+        {
+          "text": "Dónde tengo que ir para asistir al Máster?"
+        },
+        {
+          "text": "El máster se da en Somosaguas?"
+        },
+        {
+          "text": "En qué campus está la facultad"
+        },
+        {
+          "text": "Este máster es en el barrio de ciudad universitaria?"
+        },
+        {
+          "text": "¿Este máster está en ciudad universitaria o en somosaguas?"
+        },
+        {
+          "text": "Somosaguas o Ciudad Universitaria?"
+        }
+      ],
+      "description": "Consultas generales sobre el campus de Ciudad Universitaria"
+    },
+    {
+      "intent": "QNA-LOC-Contacto",
+      "examples": [
+        {
+          "text": "¿Cómo me comunico con secretaría?"
+        },
+        {
+          "text": "Consultar preguntas con algun responsable"
+        },
+        {
+          "text": "¿Dónde escribo si tengo un problema?"
+        },
+        {
+          "text": "¿Dónde puedo contactar con el máster?"
+        },
+        {
+          "text": "Hablar con Coordinación del Máster"
+        },
+        {
+          "text": "Información de contacto"
+        },
+        {
+          "text": "Necesito un correo de contacto del máster"
+        },
+        {
+          "text": "Número para llamar para dudas"
+        },
+        {
+          "text": "solicitar información por correo"
+        },
+        {
+          "text": "¿Tienen algún teléfono de información?"
+        }
+      ],
+      "description": "Información sobre correos electrónicos, teléfonos o cómo contactar con Coordinación."
+    },
+    {
+      "intent": "QNA-LOC-Edificio",
+      "examples": [
+        {
+          "text": "A qué edificios tendré que ir para las clases"
+        },
+        {
+          "text": "camino a la facultad de informática"
+        },
+        {
+          "text": "¿Dónde está el aula de clase?"
+        },
+        {
+          "text": "Dónde se encuentra el aula de las lecciones?"
+        },
+        {
+          "text": "Dónde se encuentra la Facultad de Filología?"
+        },
+        {
+          "text": "¿Dónde tengo que presentarme el primer día?"
+        },
+        {
+          "text": "Edificio donde se imparten las materias"
+        },
+        {
+          "text": "Edificio Multiusos E dónde está"
+        },
+        {
+          "text": "En qué edificio de la Universidad se dan las clases?"
+        },
+        {
+          "text": "Qué hay en el multiusos E?"
+        },
+        {
+          "text": "¿Tengo que ir al edificio Multiusos E o a otro?"
+        }
+      ],
+      "description": "Preguntas sobre la localización de los edificios donde se imparten las clases"
+    },
+    {
+      "intent": "QNA-LOC-Transporte",
+      "examples": [
+        {
+          "text": "Cómo ir a clase en autobús"
+        },
+        {
+          "text": "Cómo llegar a la clase con transporte público"
+        },
+        {
+          "text": "¿Cómo llego a la facultad?"
+        },
+        {
+          "text": "¿Cómo se llega desde Atocha?"
+        },
+        {
+          "text": "Direcciones para ir a clase en metro"
+        },
+        {
+          "text": "Hay alguna parada cerca de la facultad?"
+        },
+        {
+          "text": "Indicaciones para llegar a la facultad"
+        },
+        {
+          "text": "ir en metro a clase"
+        },
+        {
+          "text": "llegar a la universidad"
+        },
+        {
+          "text": "¿Qué autobús debo coger para llegar al edificio?"
+        },
+        {
+          "text": "¿Qué líneas de metro me dejan cerca del máster?"
+        },
+        {
+          "text": "¿Qué transporte público me sirve para llegar a clase?"
+        },
+        {
+          "text": "¿Se puede aparcar fácil si voy en coche?"
+        },
+        {
+          "text": "se puede ir en guagua"
+        },
+        {
+          "text": "Voy en coche, cómo llego a la universidad?"
+        }
+      ],
+      "description": "Consultas relacionadas con la llegada a la Facultad en transporte público o particular"
+    },
+    {
+      "intent": "QNA-PROGR-Asignaturas",
+      "examples": [
+        {
+          "text": "Cibercultura contenidos"
+        },
+        {
+          "text": "Colecciones y ediciones eletrónicas qué se estudia"
+        },
+        {
+          "text": "Complementos de filología"
+        },
+        {
+          "text": "Complementos de informática información"
+        },
+        {
+          "text": "Contenidos de creación digital"
+        },
+        {
+          "text": "¿De qué va fundamentos del e-learning?"
+        },
+        {
+          "text": "¿De qué va la asignatura de metadatos?"
+        },
+        {
+          "text": "Edición y publicación electrónicas ficha asignatura"
+        },
+        {
+          "text": "En qué consiste exactamente cibercultura?"
+        },
+        {
+          "text": "Explica la asignatura de creación digital"
+        },
+        {
+          "text": "Lista las competencias que se estudian en planificación y gestión de proyectos"
+        },
+        {
+          "text": "Planificación y gestión de proyectos, ¿qué incluye?"
+        },
+        {
+          "text": "Producción de materiales educativos digitales qué se cursa en esa materia"
+        },
+        {
+          "text": "Producción de materiales multimedia contenidos y evaluación"
+        },
+        {
+          "text": "¿Qué se da en las asignaturas?"
+        },
+        {
+          "text": "¿Qué se estudia en esta asignatura?"
+        },
+        {
+          "text": "quiero saber de qué trata literatura y arte digital"
+        },
+        {
+          "text": "Tecnologías web qué se da en esa materia"
+        }
+      ],
+      "description": "El usuario busca detalles sobre cada una de las asignaturas que componen el Máster"
+    },
+    {
+      "intent": "QNA-PROGR-Garantía",
+      "examples": [
+        {
+          "text": "Calidad de la enseñanza garantía"
+        },
+        {
+          "text": "¿Cuál es la garantía de calidad de este máster?"
+        },
+        {
+          "text": "Existe una comisión de calidad?"
+        },
+        {
+          "text": "Garantía de calidad"
+        },
+        {
+          "text": "Información sobre la comisión de calidad"
+        },
+        {
+          "text": "La calidad de este máster está protegida?"
+        },
+        {
+          "text": "Métricas obtiene este curso en cuanto a garantía de calidad"
+        },
+        {
+          "text": "Que institución garantiza la calidad de las enseñanzas"
+        },
+        {
+          "text": "Quién vela por la calidad de este master"
+        },
+        {
+          "text": "¿Se hace seguimiento del nivel del profesorado?"
+        },
+        {
+          "text": "Velar por la calidad de los materiales utilizados"
+        }
+      ],
+      "description": "El usuario busca información sobre la garantía de calidad del curso"
+    },
+    {
+      "intent": "QNA-PROGR-General",
+      "examples": [
+        {
+          "text": "¿Cuál es el programa de este curso?"
+        },
+        {
+          "text": "¿Cuál es la estructura académica del programa?"
+        },
+        {
+          "text": "De cuántas asignaturas se compone este máster?"
+        },
+        {
+          "text": "De qué cursos se compone el programa"
+        },
+        {
+          "text": "Información sobre asignaturas"
+        },
+        {
+          "text": "Materias del curso"
+        },
+        {
+          "text": "Plan de estudios del Máster"
+        },
+        {
+          "text": "programa de este máster y cómo funciona"
+        },
+        {
+          "text": "Programa y estructura"
+        },
+        {
+          "text": "Quiero saber cómo está estructurado el programa"
+        }
+      ],
+      "description": "Consulta general sobre el programa y plan de estudios del Máster"
+    },
+    {
+      "intent": "QNA-PROGR-Metodología",
+      "examples": [
+        {
+          "text": "clases grabadas"
+        },
+        {
+          "text": "¿Cómo se enseña?"
+        },
+        {
+          "text": "Cuáles son las actividades evaluables en el Máster"
+        },
+        {
+          "text": "dinámicas"
+        },
+        {
+          "text": "evaluación continua"
+        },
+        {
+          "text": "Explícame los principios metodológicos de este curso"
+        },
+        {
+          "text": "¿Hay clases teóricas y prácticas?"
+        },
+        {
+          "text": "¿Hay tutorías o seguimiento personalizado?"
+        },
+        {
+          "text": "indicaciones sobre cómo se imparte"
+        },
+        {
+          "text": "Información metodológica"
+        },
+        {
+          "text": "la metodología incluye tutorías?"
+        },
+        {
+          "text": "lecciones grabadas"
+        },
+        {
+          "text": "método de enseñanza"
+        },
+        {
+          "text": "metodología"
+        },
+        {
+          "text": "Metodología a distancia"
+        },
+        {
+          "text": "Metodología del curso"
+        },
+        {
+          "text": "metodología de lecciones"
+        },
+        {
+          "text": "¿ presencial, híbrido o a distancia?"
+        },
+        {
+          "text": "presencialidad"
+        },
+        {
+          "text": "presentaciones"
+        },
+        {
+          "text": "presentaciones o examenes"
+        },
+        {
+          "text": "¿Qué metodología se sigue?"
+        },
+        {
+          "text": "Qué metodología se sigue en las asignaturas de este máster?"
+        },
+        {
+          "text": "seguir curso a mi ritmo"
+        },
+        {
+          "text": "semipresencialidad"
+        },
+        {
+          "text": "vías metodológicas"
+        }
+      ],
+      "description": "Consultas relacionadas con la metodología seguida en el Máster"
+    },
+    {
+      "intent": "QNA-PROGR-ObjetivosyCompetencias",
+      "examples": [
+        {
+          "text": "Competencias del curso"
+        },
+        {
+          "text": "competencias formales planteadas"
+        },
+        {
+          "text": "Competencias generales"
+        },
+        {
+          "text": "Objetivos del Máster"
+        },
+        {
+          "text": "objetivos formales perseguidos por el máster"
+        },
+        {
+          "text": "objetivos y competencias que se obtienen al estudiar este máster"
+        },
+        {
+          "text": "Qué competencias adquiriré si estudio este máster"
+        },
+        {
+          "text": "Qué competencias transversales y generales aplican"
+        },
+        {
+          "text": "Qué objetivos están detrás de este curso"
+        },
+        {
+          "text": "saberes y competencias que se pueden adquirir"
+        }
+      ],
+      "description": "Información sobre los objetivos y competencias formales del curso"
+    },
+    {
+      "intent": "QNA-PROGR-PerfilProf",
+      "examples": [
+        {
+          "text": "De qué podría trabajar si estudio esto"
+        },
+        {
+          "text": "De qué puedo trabajar tras estudiar este máster"
+        },
+        {
+          "text": "¿Este máster tiene buena salida profesional?"
+        },
+        {
+          "text": "mi perfil profesional"
+        },
+        {
+          "text": "Perfiles profesionales"
+        },
+        {
+          "text": "Qué trabajos puedo desempeñar tras estudiar esto"
+        },
+        {
+          "text": "Salidas de trabajo"
+        },
+        {
+          "text": "Salidas laborales"
+        },
+        {
+          "text": "Salidas laborales y posibilidades de trabajo"
+        },
+        {
+          "text": "Trabajos para los que habiita este máster"
+        },
+        {
+          "text": "Vías laborales que abre este curso"
+        },
+        {
+          "text": "vias profesionales se me abrirían al estudiar este curso"
+        }
+      ],
+      "description": "El visitante busca conocer las salidas profesionales del Máster"
+    },
+    {
+      "intent": "WEB-CalendarioAcadémico",
+      "examples": [
+        {
+          "text": "¿Cuándo empiezan las vacaciones?"
+        },
+        {
+          "text": "¿Cuándo entregamos el siguiente trabajo?"
+        },
+        {
+          "text": "¿Cuándo es la próxima clase?"
+        },
+        {
+          "text": "cuándo es la siguiente clase de tecnologías web¿"
+        },
+        {
+          "text": "¿Cuándo tenemos el siguiente examen?"
+        },
+        {
+          "text": "cuando tengo que ir a clase si tengo cibercultura"
+        },
+        {
+          "text": "¿Cuándo termina este módulo?"
+        },
+        {
+          "text": "Dime cuándo es la primera clase de complementos de informática"
+        },
+        {
+          "text": "¿Dónde está el calendario del máster?"
+        },
+        {
+          "text": "¿Dónde puedo ver las fechas importantes?"
+        },
+        {
+          "text": "¿Hay algo programado esta semana?"
+        },
+        {
+          "text": "Hay algun taller en el próximo mes? Muéstramelo"
+        },
+        {
+          "text": "¿Hay clase el viernes?"
+        },
+        {
+          "text": "¿Qué actividades tenemos ahora?"
+        },
+        {
+          "text": "¿Qué clase tenemos hoy?"
+        },
+        {
+          "text": "¿Qué hay planeado para mañana?"
+        },
+        {
+          "text": "¿Qué tenemos el lunes que viene?"
+        },
+        {
+          "text": "¿qué toca en la próxima clase?"
+        },
+        {
+          "text": "¿Qué toca esta semana?"
+        }
+      ],
+      "description": "Preguntas sobre el calendario académico"
+    },
+    {
+      "intent": "WEB-Disciplinas",
+      "examples": [
+        {
+          "text": "disciplina humanidades digitales"
+        },
+        {
+          "text": "¿Dónde se aplica la lingüística computacional?"
+        },
+        {
+          "text": "en qué consiste el elearning"
+        },
+        {
+          "text": "¿En qué consiste la creación de materiales multimedia?"
+        },
+        {
+          "text": "en qué disciplinas podré trabajar con esto"
+        },
+        {
+          "text": "Explícame la disciplina de creación digital"
+        },
+        {
+          "text": "explícame qué es exactamente trabajar como humanista digital"
+        },
+        {
+          "text": "¿Me puedes explicar qué son las colecciones digitales?"
+        },
+        {
+          "text": "¿Para qué sirve la disciplina de lingüística computacional?"
+        },
+        {
+          "text": "¿Para qué tipo de trabajos sirve la lingüística computacional?"
+        },
+        {
+          "text": "Qué es e-learning"
+        },
+        {
+          "text": "¿Qué es la lingüística computacional y para qué sirve?"
+        },
+        {
+          "text": "tecnologías usadas en colecciones digitales en general"
+        },
+        {
+          "text": "uso e-learning en contextos educativos reales"
+        }
+      ],
+      "description": "Cuestiones profundas sobre las disciplinas a las que el Máster abre la puerta"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "actividades",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "conferencias",
+          "synonyms": [
+            "charla",
+            "charlas",
+            "conferencia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "paris8",
+          "synonyms": [
+            "francés",
+            "francesa",
+            "Paris",
+            "París",
+            "parisina",
+            "parisino",
+            "Universidad de París"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "talleres",
+          "synonyms": [
+            "taller",
+            "tallres",
+            "workshop"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "asignaturas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "aprendizaje_en_línea",
+          "synonyms": [
+            "aprendizaje en línea",
+            "aprendizaje online"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cibercultura",
+          "synonyms": [
+            "cibercultura",
+            "cibernético",
+            "cultura",
+            "cultura ciber"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "colecciones_digitales",
+          "synonyms": [
+            "colecciones",
+            "colecciones digitales"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "colec_ed_dig",
+          "synonyms": [
+            "colecciones y ediciones digitales",
+            "ediciones digitales"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "complementos_filología",
+          "synonyms": [
+            "complementos de filología",
+            "complementos filología"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "complementos_informática",
+          "synonyms": [
+            "complementos de informática",
+            "complementos informática"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "creación_digital",
+          "synonyms": [
+            "creación digital"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ed_pub_elec",
+          "synonyms": [
+            "edición",
+            "ediciones y publicaciones electrónicas",
+            "edición y publicación",
+            "publicación electrónica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fund_elearning",
+          "synonyms": [
+            "elearning",
+            "fundamentos educación",
+            "fundamentos elearning"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "literatura_arte_digital",
+          "synonyms": [
+            "arte digital",
+            "literatura digital",
+            "literatura y arte"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "organización_y_metadatos",
+          "synonyms": [
+            "metadatos",
+            "organización",
+            "organización y metadatos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "plan_gest_proy",
+          "synonyms": [
+            "gestión de proyectos",
+            "planificación proyectos",
+            "planificación y gestión",
+            "proyectos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "prod_mat_ed",
+          "synonyms": [
+            "materiales educativos",
+            "producción de materiales educativos",
+            "producción materiales educación",
+            "producto educativo",
+            "productos materiales de enseñanza"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "prod_mat_mult",
+          "synonyms": [
+            "materiales multimedia",
+            "producción de materiales multimedia",
+            "producción multimedia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tecnologías_web",
+          "synonyms": [
+            "tecnologías web",
+            "webtecnologías"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TFM",
+          "synonyms": [
+            "tesis de fin de master",
+            "tesis fin de máster",
+            "TFG",
+            "TFM"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "consulta_específica_matr",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "formesp",
+          "synonyms": [
+            "formación",
+            "formación específica"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "itinerarios",
+          "synonyms": [
+            "itinerario",
+            "modadlidad",
+            "modalidades",
+            "ruta",
+            "rutas",
+            "vía",
+            "vías"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "solapamiento",
+          "synonyms": [
+            "pisa",
+            "pisamiento",
+            "pisan",
+            "pisarse",
+            "solapa",
+            "solapación",
+            "solapan",
+            "solaparse",
+            "solape"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "consulta_prácticas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "evaluación",
+          "synonyms": [
+            "nota",
+            "notas",
+            "valoración"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "oferta",
+          "synonyms": [
+            "ámbitos",
+            "propuesta",
+            "sector",
+            "sectores"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "perfiles",
+          "synonyms": [
+            "perfil",
+            "perfiles profesionales"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "descriptor_específico",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "carga_lectiva",
+          "synonyms": [
+            "carga",
+            "carga lectiva",
+            "carga trabajo",
+            "dedicación",
+            "horas de estudio",
+            "ocupación"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "duración",
+          "synonyms": [
+            "longitud",
+            "transcurso"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ects",
+          "synonyms": [
+            "créditos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "modalidad",
+          "synonyms": [
+            "metodología"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "plazas",
+          "synonyms": [
+            "huecos",
+            "sitios",
+            "vacantes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "edificio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "EdifE",
+          "synonyms": [
+            "Edificio E",
+            "Edificio multiusos",
+            "Edificio Multiusos E",
+            "Multiusos E"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "facfil",
+          "synonyms": [
+            "edificio filología",
+            "facultad de filología",
+            "facultad de humanidades",
+            "filología",
+            "humanidades"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "facinf",
+          "synonyms": [
+            "facultad ciencias informáticas",
+            "facultad de informática",
+            "informática"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "medio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "automóvil",
+          "synonyms": [
+            "auto",
+            "automotor",
+            "carro",
+            "coche",
+            "vehículo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bus",
+          "synonyms": [
+            "autobús",
+            "autocar",
+            "bus",
+            "colectivo",
+            "guagua",
+            "pullman"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "metro",
+          "synonyms": [
+            "metropolitana",
+            "metropolitano",
+            "subte",
+            "subterráneo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "nacionalidad",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "comunitario",
+          "synonyms": [
+            "Comunidad Europea",
+            "comunitario",
+            "Europa",
+            "europeo",
+            "Unión Europea"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "con_residencia",
+          "synonyms": [
+            "con residencia",
+            "residencial",
+            "residente",
+            "residente en españa",
+            "residentes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "español",
+          "synonyms": [
+            "español",
+            "nacional"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sin_residencia",
+          "synonyms": [
+            "africana",
+            "africano",
+            "americana",
+            "americano",
+            "asiática",
+            "asiático",
+            "extracomunitario",
+            "extraeuropeo",
+            "hispanoamericano",
+            "latina",
+            "latino",
+            "latinoamericana",
+            "latinoamericano",
+            "no comunitario",
+            "no residente",
+            "Oceanía"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo_consulta_plataforma",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "matrícula",
+          "synonyms": [
+            "inscripción",
+            "matrícula",
+            "registro"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "preinscripción",
+          "synonyms": [
+            "inscripción previa",
+            "matrícula previa",
+            "preinscripción",
+            "preinscription",
+            "prematrícula"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Hola, poeta! Soy Virgibot y estoy aquí para ayudarte."
+              },
+              {
+                "text": "Ave, viajero. Mi misión es guiarte por esta página. Dime, ¿tienes alguna duda sobre el Máster?"
+              },
+              {
+                "text": "Saludos, poeta. Soy Virgibot, el asistente conversacional del Máster en Letras Digitales. Dime en qué te puedo ayudar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poeta, no he captado tus directrices. ¿Podrías reformular tu consulta? Hazlo con palabras simples, por favor."
+              },
+              {
+                "text": "Viajero, me temo que no te he entendido. Navegas por mares desconocidos, como Eneas. Tal vez puedas reformular tu pregunta de manera más sencilla."
+              },
+              {
+                "text": "No sé responder a eso. Quizás deba consultar a las Sibilas de Cunas... ¿Podrías repetírmelo con otras palabras más sencillas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_6_1750884393438",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "What",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El Máster en Letras Digitales es un posgrado que pretende complementar los estudios filológicos o informáticos con la adquisición de competencias tecnológicas en el ámbito de las textualidades electrónicas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Quieres saber cuál es el objetivo fundacional?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1750750531067",
+      "context": {
+        "esperando_info": true
+      },
+      "conditions": "#QNA-INFGEN-What",
+      "dialog_node": "node_10_1750754762823"
+    },
+    {
+      "type": "standard",
+      "title": "Recipientes-NoMásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De acuerdo, viajero. Hazme saber si necesitas saber algo más del Máster y su funcionamiento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1750765952177",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#negación && $esperando_info",
+      "dialog_node": "node_10_1750766073448",
+      "previous_sibling": "node_8_1750766015160"
+    },
+    {
+      "type": "standard",
+      "title": "Insistencia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si necesitas saber algo más, dime en qué puedo asistirte, poeta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1750766386953",
+      "dialog_node": "node_10_1750766593280"
+    },
+    {
+      "type": "standard",
+      "title": "Plataforma",
+      "parent": "node_8_1750767333240",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#QNA-ADMAT-Plataforma",
+      "dialog_node": "node_10_1750767677807",
+      "previous_sibling": "node_2_1750767630320"
+    },
+    {
+      "type": "folder",
+      "title": "PROGRAMA",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1750775600949",
+      "previous_sibling": "node_8_1750767333240"
+    },
+    {
+      "type": "standard",
+      "title": "perfprof_NoMásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡De acuerdo! Espero que haya sido útil. Hazme saber si necesitas algo más."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1750776134196",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#negación && $esperando_info",
+      "dialog_node": "node_10_1750776323723",
+      "previous_sibling": "node_8_1750776225093"
+    },
+    {
+      "type": "standard",
+      "title": "garantía_MásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Comisión de Calidad del Máster propone objetivos de calidad, recoge evidencias del desarrollo del programa, elabora una memoria anual y propone mejoras. También evalúa estos objetivos y atiende sugerencias y reclamaciones de estudiantes y profesorado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Puedes revisar estas memorias y las encuestas de satisfacción <a href=\"https://www.ucm.es/master-letrasdigitales/garantia-de-calidad\" target=\"_blank\">aquí</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1750776673964",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#afirmación && $esperando_info",
+      "dialog_node": "node_10_1750776839740"
+    },
+    {
+      "type": "folder",
+      "title": "LOCALIZACIÓN",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1750779263522",
+      "previous_sibling": "node_1_1750780418220"
+    },
+    {
+      "type": "standard",
+      "title": "transporte",
+      "parent": "node_10_1750779263522",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#QNA-LOC-Transporte",
+      "dialog_node": "node_10_1750779668058",
+      "previous_sibling": "node_7_1750779449907"
+    },
+    {
+      "type": "standard",
+      "title": "sugerencia_SÍ",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1750780039075",
+      "context": {
+        "esperando_info": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1750779351740"
+      },
+      "conditions": "#afirmación && $esperando_info",
+      "dialog_node": "node_10_1750780195869"
+    },
+    {
+      "type": "standard",
+      "title": "Else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro, poeta. Dime qué quieres saber,"
+              },
+              {
+                "text": "Por supuesto, viajero. ¿En qué puedo asistirte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1750709909019",
+      "conditions": "#CHI-Else-wip",
+      "dialog_node": "node_1_1750709930924"
+    },
+    {
+      "type": "standard",
+      "title": "Hi",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Encantado de verte! Dime ahora, viajero, en qué puedo ayudarte."
+              },
+              {
+                "text": "Saludos, poeta. Soy Virgibot, el asistente conversacional del Máster en Letras Digitales. Dime en qué te puedo ayudar."
+              },
+              {
+                "text": "¡Ave! Indícame las cuestiones que deseas resolver."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1750709909019",
+      "conditions": "#DEF-Welcome",
+      "dialog_node": "node_1_1750749973188",
+      "previous_sibling": "node_8_1750711080247"
+    },
+    {
+      "type": "standard",
+      "title": "Extranjero",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si eres extranjero, puedes estudiar este Máster, pero tienes que tener en consideración algunos aspectos. Te los resumo, poeta.\n\nEl título de acceso al Máster debe ser:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "- Expedido por una institución del Espacio Europeo de Enseñanza Superior (EEES) y que faculte en el país de expedición para el acceso a enseñanza de Máster\n- Expedido por un sistema ajeno al EEES que faculte en el país de expedición para el acceso a enseñanzas de Máster\n\nEn este último caso, si el estudiante no dispone de una credencial de homologación o declaración de equivalencia, la UCM comprobará su nivel de formación."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Quieres saber cómo puede afectar al precio ser estudiante extranjero?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1750767333240",
+      "context": {
+        "esperando_info": true
+      },
+      "conditions": "#QNA-ADMAT-Extranjero",
+      "dialog_node": "node_1_1750775144730",
+      "previous_sibling": "node_5_1750774644674"
+    },
+    {
+      "type": "standard",
+      "title": "metodología_NoMásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espero de corazón que estés satisfecho. Si tienes más dudas sobre la metodología, visita <a href=\"https://www.ucm.es/master-letrasdigitales/metodologia-de-trabajo\" target=\"_blank\" la página</a>. ¡Buen viaje, poeta!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1750776437525",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#negación && $esperando_info",
+      "dialog_node": "node_1_1750776584173",
+      "previous_sibling": "node_2_1750776540484"
+    },
+    {
+      "type": "standard",
+      "title": "asignaturas",
+      "parent": "node_10_1750775600949",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#QNA-PROGR-Asignaturas",
+      "dialog_node": "node_1_1750776973437",
+      "previous_sibling": "node_7_1750776673964"
+    },
+    {
+      "type": "folder",
+      "title": "ESTUDIANTES",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1750780418220",
+      "previous_sibling": "node_10_1750775600949"
+    },
+    {
+      "type": "standard",
+      "title": "campusvirtual_másInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<a href=\"https://www.ucm.es/faq/campus-virtual\" target=\"_blank\">Aquí</a> puedes consultar las FAQs que provee la UCM en respecto al Campus Virtual y sus principales funcionalidades. Dime si necesitas algo más, viajero."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1750797890678",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#afirmación && $esperando_info",
+      "dialog_node": "node_1_1750797921461"
+    },
+    {
+      "type": "standard",
+      "title": "sugyrecl",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los estudiantes pueden canalizar sus sugerencias y reclamaciones a través del representante de alumnos.\n\nLa Coordinación del Máster atenderá estas sugerencias y reclamaciones a través del correo mletrasdigitales@filol.ucm.es.\n\n\nLos estudiantes pueden depositar sus sugerencias y quejas en el <a href=\"https://filologia.ucm.es/buzon-de-sugerencias-y-reclamaciones\" target=\"_blank\">Buzón de sugerencias y quejas de la Facultad de Filología</a> o  dirigirse a la Defensora Universitaria."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750780418220",
+      "conditions": "#QNA-EST-SugyRecl",
+      "dialog_node": "node_1_1750798089125",
+      "previous_sibling": "node_5_1750797890678"
+    },
+    {
+      "type": "standard",
+      "title": "insistencia_prácticas_MásInfo",
+      "parent": "node_6_1750800074040",
+      "context": {
+        "esperando_info": null
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1750766144169"
+      },
+      "conditions": "#afirmación && $esperando_info",
+      "dialog_node": "node_1_1750800103351"
+    },
+    {
+      "type": "standard",
+      "title": "CALENDARIO-WEBHOOK-WIP",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "intents": [
+              {
+                "intent": "WEB-CalendarioAcadémico"
+              }
+            ],
+            "user_input": "<? input.text ?>"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#WEB-CalendarioAcadémico",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1750884396502",
+      "previous_sibling": "node_10_1750779263522"
+    },
+    {
+      "type": "standard",
+      "title": "Criterios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los méritos de los preinscritos se valoran en los siguientes términos:\n- Expediente académico: 60%\n- Currículo profesional: 10%\n- Adecuación del candidato a los objetivos y contenidos del programa: 30%"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Los perfiles recomendados son los de estudiantes de Filología, Traducción e Interpretación y equivalentes, así como de Informática, e Ingenierías.\n\nAun así, los perfiles diferentes cuya trayectoria curricular esté relacionada con la naturaleza del máster también serán valorados."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "En cualquier caso, poeta, te recomiendo consultar los Requisitos de Admisión a Másteres de la UCM. ¡Dime si necesitas algo más!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1750767333240",
+      "conditions": "#QNA-ADMAT-Criterios",
+      "dialog_node": "node_2_1750767630320"
+    },
+    {
+      "type": "standard",
+      "title": "Plataforma-Matrícula-NoMásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Está bien! En cualquier caso, poeta, sabes que estoy aquí para ayudarte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750767677807",
+      "context": {
+        "esperando_info_matr": null
+      },
+      "conditions": "#negación && $esperando_info_matr",
+      "dialog_node": "node_2_1750769233513",
+      "previous_sibling": "node_4_1750769153848"
+    },
+    {
+      "type": "standard",
+      "title": "Pago",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El pago único se puede realizar con:\n- Tarjeta de Crédito\n- Abono del recibo que se obtiene al validar la matrícula en cualquier sucursal del Banco Santander\n- Domiciliación bancaria"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "En caso de pagar desde el extranjero en países extracomunitarios con moneda distinta al euro, se podrá realizar a través de la plataforma Flywire."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "En caso de que el pago sea fraccionado, consulta específicamente los métodos de pago <a href=\"https://www.ucm.es/pago-fraccionado\" target=\"_blank\"> aquí </a>. Dime si necesitas algo más, viajero, e intentaré guiarte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1750767333240",
+      "conditions": "#QNA-ADMAT-Pago",
+      "dialog_node": "node_2_1750769679728",
+      "previous_sibling": "node_3_1750769603393"
+    },
+    {
+      "type": "standard",
+      "title": "extranjero-noMásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De acuerdo. Hazme saber si necesitas algo más."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750775144730",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#negación && $esperando_info",
+      "dialog_node": "node_2_1750775513986",
+      "previous_sibling": "node_7_1750775446243"
+    },
+    {
+      "type": "standard",
+      "title": "metodología_MásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cada asignatura ofrece una planificación clara con objetivos, contenidos, ejercicios y trabajos. Incluye lecciones en vídeo, foros, tutorías, seminarios y casos prácticos, fomentando el aprendizaje autónomo, colaborativo y con apoyo continuo del profesorado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Como todo buen viaje, la formación requiere rumbo, constancia… y una metodología que seguir. Dime si necesitas información sobre otro tema y estaré encantado de ayudarte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1750776437525",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#afirmación && $esperando_info",
+      "dialog_node": "node_2_1750776540484"
+    },
+    {
+      "type": "standard",
+      "title": "cafeterías",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tienes dos opciones para comer o tomar algo cerca de clase.\n☕El Edificio Multiusos E tiene su propia cafetería.\n☕El edificio de la Facultad de Filología y Filosofía tiene una de las cafeterías más frecuentadas del campus. Está a apenas 5 minutos del Edificio Multiusos E."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Si eres miembro de la comunidad Complutense, puedes mirar la lista de precios y los menús <a href=\"https://www.ucm.es/cafeterias\" target=\"_blank\">aquí</a>. Recuerda: Nulla via sine cibo - ¡sin comida no hay camino!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750779263522",
+      "conditions": "#QNA-LOC-Cafeterías",
+      "dialog_node": "node_2_1750779351740",
+      "previous_sibling": "node_3_1750779278562"
+    },
+    {
+      "type": "standard",
+      "title": "insistencia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Necesitas saber algo más? Dime en qué puedo asistirte, poeta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1750798175221",
+      "dialog_node": "node_2_1750798292261"
+    },
+    {
+      "type": "standard",
+      "title": "Desambiguación NO",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espero que me perdones, pero no entiendo a qué expresas negación. Si puedo ayudarte en algo más, hazme saber y estaré aquí para asistirte."
+              },
+              {
+                "text": "No termino de entender esto, poeta. Por favor, indícame de nuevo si necesitas información sobre algo más."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1750766755984",
+      "conditions": "#negación",
+      "dialog_node": "node_3_1750766859952",
+      "previous_sibling": "node_5_1750766775160"
+    },
+    {
+      "type": "standard",
+      "title": "Plataforma-preinscripción-NoMásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡De acuerdo! Espero que mi guía te haya resultado útil."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750767677807",
+      "context": {
+        "esperando_info_preinscr": null
+      },
+      "conditions": "#negación && $esperando_info_preinscr",
+      "dialog_node": "node_3_1750768986904",
+      "previous_sibling": "node_7_1750768937560"
+    },
+    {
+      "type": "standard",
+      "title": "plazos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los plazos son susceptibles a cambios constantes. Visita <a href=\"https://www.ucm.es/plazos-generales\" target=\"_blank\"> este enlace </a> para tener la última información. ¡Gracias! Dime si tienes más dudas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1750767333240",
+      "conditions": "#QNA-ADMAT-Plazos",
+      "dialog_node": "node_3_1750769603393",
+      "previous_sibling": "node_10_1750767677807"
+    },
+    {
+      "type": "standard",
+      "title": "campus",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📍 La Ciudad Universitaria está ubicada en el distrito de Moncloa-Aravaca, al noroeste de la ciudad. Es el principal campus universitario de la Universidad Complutense de Madrid.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Mira, poeta. He encontrado un <a href=\"https://www.ucm.es/data/cont/docs/3-2022-05-17-Plano%20CIU%202022.pdf_WEB.pdf\" target=\"_blank\">mapa del campus</a>. Espero que te sirva como guía."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Si quieres, puedo explicarte cómo llegar en transporte público o recomendarte alguna cafetería cercana ☕. ¡Dime si necesitas algo!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750779263522",
+      "conditions": "#QNA-LOC-Campus",
+      "dialog_node": "node_3_1750779278562"
+    },
+    {
+      "type": "standard",
+      "title": "sugerencia_NO",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sin problema, viajero. Dime si necesitas algo más."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1750780039075",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#negación && $esperando_info",
+      "dialog_node": "node_3_1750780238003",
+      "previous_sibling": "node_10_1750780195869"
+    },
+    {
+      "type": "standard",
+      "title": "prácticas",
+      "parent": "node_1_1750780418220",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#QNA-EST-Prácticas",
+      "dialog_node": "node_3_1750799828178",
+      "previous_sibling": "node_4_1750798175221"
+    },
+    {
+      "type": "standard",
+      "title": "Plataforma-Matrícula-MásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Necesitas crear una cuenta de correo @ucm.es. Cuando la tengas, dentro del plazo, dirígete al Portal de Gestión Académica (GEA-UCMnet) y accede a la aplicación online de automatrícula.\n\nLa automatrícula online te guiará por los distintos bloques donde deberás confirmar tus datos personales, asignaturas, grupos y formas de pago."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "En Matrícula de Másteres tienes información actualizada sobre la documentación y otras cuestiones como la anulación o devolución de tasas.\n\nRecuerda que, una vez hecha tu matrícula, debes hacer llegar a la Secretaría de Estudiantes de tu Facultad tu documentación de matrícula. ¡Buena suerte, poeta!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750767677807",
+      "context": {
+        "esperando_info_matr": null
+      },
+      "conditions": "#afirmación && $esperando_info_matr",
+      "dialog_node": "node_4_1750769153848",
+      "previous_sibling": "node_3_1750768986904"
+    },
+    {
+      "type": "standard",
+      "title": "MatrAsignaturas",
+      "parent": "node_8_1750767333240",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#QNA-ADMAT-MatrAsignaturas",
+      "dialog_node": "node_4_1750769953288",
+      "previous_sibling": "node_6_1750769923968"
+    },
+    {
+      "type": "standard",
+      "title": "general",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El plan de estudios consiste en una materia de complemento a la formación y cuatro módulos:\n\n📚 MÓDULO 1 de formación fundamental: Organización de la Información y Metadatos, Cibercultura, Tecnologías Web y Edición y Publicación Electrónica\n\n🧮MÓDULO 2 de especialización: creación digital, aprendizaje en línea o colecciones digitales\n\n👷🏼‍♀️MÓDULO 3, prácticas externas.\n\n📜MÓDULO 4, Tesis de Fin de Máster."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Si quieres conocer detalles sobre alguna asignatura en específico, los objetivos y competencias, el perfil profesional, la metodología seguida o la garantía de calidad, solo tienes que hacérmelo saber, poeta, y te guiaré lo mejor que pueda."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750775600949",
+      "conditions": "#QNA-PROGR-General",
+      "dialog_node": "node_4_1750775870307"
+    },
+    {
+      "type": "standard",
+      "title": "actividades",
+      "parent": "node_1_1750780418220",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#QNA-EST-Actividades",
+      "dialog_node": "node_4_1750798175221",
+      "previous_sibling": "node_1_1750798089125"
+    },
+    {
+      "type": "standard",
+      "title": "Bot",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Soy VirgiBot, el asistente conversacional del Máster en Letras Digitales. Tengo respuestas a muchas de tus preguntas, así que dime, viajero. ¿Qué deseas saber?"
+              },
+              {
+                "text": "Estoy hecho de líneas de código y un poquito de poesía. Estoy aquí para ayudarte y guiarte, para ser tu propio Virgilio. Dime, poeta, ¿puedo ayudarte en algo?"
+              },
+              {
+                "text": "Soy VirgiBot, un agente conversacional que intenta guiarte. Oriento a los usuarios sobre el Máster en Letras Digitales de la Universidad. ¿Necesitas ayuda con algo?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1750709909019",
+      "conditions": "#CHI-Bot",
+      "dialog_node": "node_5_1750710076643",
+      "previous_sibling": "node_1_1750709930924"
+    },
+    {
+      "type": "standard",
+      "title": "Hate",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Uy… eso ha dolido. Bueno, en realidad no tengo sentimientos, pero si los tuviera, estaría recitando versos tristes ahora mismo 😢. Si necesitas ayuda, aquí estoy. Sin rencor."
+              },
+              {
+                "text": "A veces hasta el mejor de los guías se encuentra con palabras duras. Pero no te preocupes, sigo aquí para ayudarte. Respiremos hondo y sigamos nuestro camino, ¿vale?"
+              },
+              {
+                "text": "No sé qué he hecho para merecer estas palabras, lo lamento. ¿Podemos intentarlo otra vez?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1750709909019",
+      "conditions": "#CHI-Hate",
+      "dialog_node": "node_5_1750710512561",
+      "previous_sibling": "node_7_1750710288290"
+    },
+    {
+      "type": "standard",
+      "title": "Owner",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Soy un proyecto del Máster en Letras Digitales, diseñado para orientarte en tu navegación por esta web. Dime, ¿qué necesitas?"
+              },
+              {
+                "text": "¡Qué curioso eres, poeta! Me han diseñado para asistirte mientras visitas esta página. Dime si te hace falta algo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1750709909019",
+      "conditions": "#CHI-Owner",
+      "dialog_node": "node_5_1750710607201",
+      "previous_sibling": "node_5_1750710512561"
+    },
+    {
+      "type": "standard",
+      "title": "Thank You",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Gracias a ti. Siempre estoy dispuesto a guiar almas por este purgatorio del conocimiento."
+              },
+              {
+                "text": "Te agradezco tus palabras. Podemos proseguir tu camino cuando desees."
+              },
+              {
+                "text": "Aprecio mucho tu cometario, viajero. Me alegra haberte sido de ayuda. ¿Seguimos?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1750709909019",
+      "conditions": "#CHI-ThankYou",
+      "dialog_node": "node_5_1750710743169",
+      "previous_sibling": "node_5_1750710607201"
+    },
+    {
+      "type": "standard",
+      "title": "What-NoMásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡Espero que la información te haya resultado útil, poeta! Estoy aquí si necesitas saber algo más. Puedes preguntarme sobre información general, admisión, programa, coordinación... Estoy aquí para ayudarte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750754762823",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#negación && $esperando_info",
+      "dialog_node": "node_5_1750765900945",
+      "previous_sibling": "node_6_1750765694016"
+    },
+    {
+      "type": "standard",
+      "title": "Desambiguación SÍ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Disculpa, no he entendido exactamente qué es lo que quieres. ¿Sobre qué aspecto quieres saber más?"
+              },
+              {
+                "text": "Viajero, me he confundido. No sé si querías expresarme que continuase con algo en específico. ¿Puedes repetirme qué quieres saber?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1750766755984",
+      "conditions": "#afirmación",
+      "dialog_node": "node_5_1750766775160"
+    },
+    {
+      "type": "standard",
+      "title": "precio",
+      "parent": "node_8_1750767333240",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#QNA-ADMAT-Precio",
+      "dialog_node": "node_5_1750774644674",
+      "previous_sibling": "node_4_1750769953288"
+    },
+    {
+      "type": "standard",
+      "title": "perfilprogr",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🎓 El Máster forma profesionales capaces de integrar herramientas tecnológicas en la creación, gestión y análisis de contenidos digitales.\n\nEste perfil responde a una necesidad real, donde tanto los graduados en Humanidades como los de áreas técnicas requieren una formación híbrida."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "💼 ¿En qué pueden trabajar nuestros egresados?\n📚 Sector editorial: Editor digital de libros electrónicos (EPUB, PDF), revisor de maquetas y metadatos para publicaciones y redactor.\n🎓 Educación y e-learning: Diseñador instruccional para materiales digitales, creador de contenidos educativos multimedia y editor de plataformas de enseñanza.\n🏛️ Cultura y patrimonio: Gestor de bibliotecas y museos digitales, editor TEI/XML y catalogador de documentos\n🧠 Investigación y tecnología: Anotador de corpus literarios, diseñador de asistentes conversacionales  y desarrollador de recursos para la enseñanza de lenguas.\n\nDime, poeta, ¿necesitas más ejemplos?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750775600949",
+      "context": {
+        "esperando_info": true
+      },
+      "conditions": "#QNA-PROGR-PerfilProf",
+      "dialog_node": "node_5_1750776134196",
+      "previous_sibling": "node_9_1750775914291"
+    },
+    {
+      "type": "standard",
+      "title": "alumni",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El Máster en Letras Digitales muestra interés en las experiencias de los egresados, y por ello se ofrece en la página web un listado de alumni, para que puedas comprobar las vías que este curso abre y la trayectoria que han seguido los antiguos estudiantes.\n¿Quieres que te lo muestre?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750780418220",
+      "context": {
+        "esperando_info": true
+      },
+      "conditions": "#QNA-EST-Alumni",
+      "dialog_node": "node_5_1750797737918"
+    },
+    {
+      "type": "standard",
+      "title": "campus virtual",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El Campus Virtual de la UCM es el espacio de trabajo básico de este Máster, al desarrollarse en un 80% en línea. Ahí se encuentran todas las asignaturas, con sus materiales, actividades y herramientas de comunicación.\n\nEs accesible a través de navegadores web, así como en iOS y Android.\n\n¿Quieres que te redirija a las instrucciones y FAQs que provee la Universidad?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750780418220",
+      "context": {
+        "esperando_info": true
+      },
+      "conditions": "#QNA-EST-CampusVirt",
+      "dialog_node": "node_5_1750797890678",
+      "previous_sibling": "node_5_1750797737918"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Como hizo Dante, parece que estás encontrando tu camino poco a poco. Dime si tienes otra consulta en la que pueda ayudarte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1750800074040",
+      "conditions": "#negación && $esperando_info",
+      "dialog_node": "node_5_1750800151959",
+      "previous_sibling": "node_1_1750800103351"
+    },
+    {
+      "type": "standard",
+      "title": "What-MásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El objetivo es cubrir la necesidad de profesionales en la creación y gestión de materiales digitales.  Se aspira a la entrada del egresado en las industrias culturales, instituciones del patrimonio cultural digitalizado y centros de enseñanza que usan herramientas en línea."
+              },
+              {
+                "text": "Si quieres saber algo más sobre el perfil de ingreso, descriptores operativos, por qué estudiar este máster o algunas de sus entidades colaboradoras, hazme saber, viajero."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750754762823",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#afirmación && $esperando_info",
+      "dialog_node": "node_6_1750765694016"
+    },
+    {
+      "type": "standard",
+      "title": "Colaboradores",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El Máster colabora con entidades e instituciones de gran importancia en el ámbito de las Humanidades Digitales y las Textualidades Electrónicas.\n\nAlgunos ejemplos son: NTT Data, eLibro, Libnova, Penguin Random House Grupo Editorial, Always On Conversational SL., Université Paris 8 o Libnova."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "El listado de entidades colaboradoras está continuamente en cambio. Para echar un vistazo general, te recomiendo visitar <a href=\"https://www.ucm.es/master-letrasdigitales/informacion-para-entidades-colaboradoras\" target=\"_blank\">esta sección</a> de la página web"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1750750531067",
+      "conditions": "#QNA-INFGEN-Colaboradores",
+      "dialog_node": "node_6_1750766144169",
+      "previous_sibling": "node_7_1750766122616"
+    },
+    {
+      "type": "standard",
+      "title": "Descriptores",
+      "parent": "node_9_1750750531067",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1750766593280"
+      },
+      "conditions": "#QNA-INFGEN-Descriptores",
+      "dialog_node": "node_6_1750766386953",
+      "previous_sibling": "node_6_1750766144169"
+    },
+    {
+      "type": "standard",
+      "title": "general",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Puedo asistirte en tu consulta sobre admisión y matrícula. Dime, viajero, ¿qué quieres saber específicamente?\n\nIntentaré guiarte en tus preguntas sobre los procedimientos de admisión y matrícula. Indícame, por favor, con más detalle, qué deseas consultar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 100,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "title": "Puedo ayudarte con:",
+            "options": [
+              {
+                "label": "🎓Criterios de admisión y ponderación",
+                "value": {
+                  "input": {
+                    "text": "Criterios de admisión y ponderación"
+                  }
+                }
+              },
+              {
+                "label": "💻Plataforma de Matrícula",
+                "value": {
+                  "input": {
+                    "text": "Plataforma"
+                  }
+                }
+              },
+              {
+                "label": "📜Precio por crédito",
+                "value": {
+                  "input": {
+                    "text": "Precio"
+                  }
+                }
+              },
+              {
+                "label": "⏳ Plazo de solicitudes",
+                "value": {
+                  "input": {
+                    "text": "Plazo"
+                  }
+                }
+              },
+              {
+                "label": "🌍 Matrícula para alumnos con títulos extranjeros",
+                "value": {
+                  "input": {
+                    "text": "Extranjero"
+                  }
+                }
+              },
+              {
+                "label": "💳Métodos y plazos de pago",
+                "value": {
+                  "input": {
+                    "text": "Método de pago"
+                  }
+                }
+              },
+              {
+                "label": "🔀Matriculación en asignaturas específicas y solapamiento",
+                "value": {
+                  "input": {
+                    "text": "Matriculación en asignaturas"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1750767333240",
+      "conditions": "#QNA-ADMAT-General",
+      "dialog_node": "node_6_1750769923968",
+      "previous_sibling": "node_2_1750769679728"
+    },
+    {
+      "type": "standard",
+      "title": "metodología",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La metodología del Máster busca preparar a los estudiantes para su futuro profesional a través de un enfoque práctico, flexible y adaptado al entorno real. \nEs un máster semipresencial, con un 80 % de enseñanza virtual (a través del Campus Virtual de la UCM) y un 20 % de sesiones presenciales intensivas, concentradas los viernes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Se trata de un máster profesionalizante, donde se prioriza el contacto con empresas y la experiencia práctica. Además, el modelo pedagógico sigue una metodología de clase invertida, para aprovechar al máximo cada sesión presencial. \n¿Te gustaría que te cuente más detalles sobre cómo se organizan las actividades formativas y los tipos de trabajo que realizarás?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750775600949",
+      "context": {
+        "esperando_info": true
+      },
+      "conditions": "#QNA-PROGR-Metodología",
+      "dialog_node": "node_6_1750776437525",
+      "previous_sibling": "node_5_1750776134196"
+    },
+    {
+      "type": "standard",
+      "title": "sugerencia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Por cierto, poeta. Si vas a venir a clase con tiempo, puedo recomendarte alguna cafetería cerca ☕️. ¿Te interesa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750779668058",
+      "context": {
+        "esperando_info": true
+      },
+      "dialog_node": "node_6_1750780039075"
+    },
+    {
+      "type": "standard",
+      "title": "insistencia prácticas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Quieres que te diga alguna de las empresas e instituciones que han colaborado con el Máster?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1750799828178",
+      "context": {
+        "esperando_info": true
+      },
+      "dialog_node": "node_6_1750800074040"
+    },
+    {
+      "type": "standard",
+      "title": "DISCIPLINAS-WEBHOOK-WIP",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "intents": [
+              {
+                "intent": "WEB-Disciplinas"
+              }
+            ],
+            "user_input": "<? input.text ?>"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#WEB-Disciplinas",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1750884393438",
+      "previous_sibling": "node_1_1750884396502"
+    },
+    {
+      "type": "folder",
+      "title": "CHIT-CHAT",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1750709909019",
+      "previous_sibling": "node_7_1750766755984"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No abandones toda esperanza, tú que escapas... ¡Que vaya bien!"
+              },
+              {
+                "text": "Nos vemos pronto, poeta. Hazme saber si necesitas algo más."
+              },
+              {
+                "text": "¡Hasta pronto, viajero! Estoy aquí si me necesitas para cualquier cosa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1750709909019",
+      "conditions": "#CHI-Goodbye",
+      "dialog_node": "node_7_1750710288290",
+      "previous_sibling": "node_5_1750710076643"
+    },
+    {
+      "type": "standard",
+      "title": "Why",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Por qué estudiar este Máster?\n\n🚀 Adaptado al futuro: Formación en textualidades electrónicas para aplicar en investigación, empresas, gestión cultural y docencia. \n🏛 Profesorado excepcional: Colaboración entre facultades (Filología, Informática, Documentación, Biblioteca). \n🔄 Metodología innovadora: Semipresencial con clases invertidas para aprendizaje activo. \n💼 Inserción laboral: Puertas abiertas en la C.A. de Madrid y proyección internacional.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Además, al ser un Máster oficial, allana el camino hacia programas de doctorado.\n\nSi tienes preguntas más concretas sobre el programa, salidas laborales, metodología u otras cuestiones, hazme saber, poeta. Estaré encantado de ayudarte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1750750531067",
+      "conditions": "#QNA-INFGEN-Why",
+      "dialog_node": "node_7_1750766122616",
+      "previous_sibling": "node_9_1750765952177"
+    },
+    {
+      "type": "folder",
+      "title": "Desambiguaciones",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1750766755984",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "Plataforma-Preinscripción-MásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En el correo electrónico admisionmasteres@ucm.es y en el teléfono 913941448, el personal administrativo te ayudará de 9:00 a 14:00 de lunes a viernes. Indícame si necesitas mi asistencia en otros asuntos, poeta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750767677807",
+      "context": {
+        "esperando_info_preinscr": null
+      },
+      "conditions": "#afirmación && $esperando_info_preinscr",
+      "dialog_node": "node_7_1750768937560"
+    },
+    {
+      "type": "standard",
+      "title": "extranjero-MásInfo",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1750775144730",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1750774644674"
+      },
+      "conditions": "#afirmación && $esperando_info",
+      "dialog_node": "node_7_1750775446243"
+    },
+    {
+      "type": "standard",
+      "title": "garantía",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El Máster en Letras Digitales se rige por los criterios que establece el <a href=\"https://www.ucm.es/calidad\" target=\"_blank\">SGIC de las Titulaciones oficiales de la UCM.</a>\nLa responsabilidad del sistema de garantía de calidad del plan de estudios recae en la Comisión de Calidad de la Facultad de Filología."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "La Comisión de Calidad del Máster estará compuesta por el Coordinador, que necesariamente es un profesor que  también es vocal de la Comisión de Calidad del Centro, dos profesores (uno de la Facultad de Filología y otro de la Facultad de Informática), un estudiante  y un miembro del personal de administración y servicios, si se dispusiera de él.\nLa Comisión de este año puede verse <a href=\"https://www.ucm.es/master-letrasdigitales/garantia-de-calidad\" target=\"_blank\">aquí</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Quieres que te enseñe las funciones de la Comisión de Calidad, viajero?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750775600949",
+      "context": {
+        "esperando_info": true
+      },
+      "conditions": "#QNA-PROGR-Garantía",
+      "dialog_node": "node_7_1750776673964",
+      "previous_sibling": "node_6_1750776437525"
+    },
+    {
+      "type": "standard",
+      "title": "contacto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poeta, te indico a continuación la información de contacto.\n\nCoordinación: María Goicoechea de Jorge (<a href=\"mailto:mgoico@filol.ucm.es\">mgoico@filol.ucm.es</a>). Despacho 328.1 Facultad de Filología, Edificio A, 28040 Madrid.\n\nDirigir preguntas y concertar cita presencial o virtual al 91394 77 73 o en <a href=\"mailto:mldff@ucm.es\">mldff@ucm.es</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Te dejo también algunos números útiles:\n\nConserjería Facultad de Filología (Edificio A): teléfono 91 394 5343\nConserjería del Edificio Multiusos: teléfono 91 3 94 76 94 \nSecretaría de Alumnos de Máster de la Facultad de Filología: correo <a href=\"secre.alumnos@filol.ucm.es\">secre.alumnos@filol.ucm.es</a>; teléfono 91 394 5344"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Si necesitas algo más, viajero, solo tienes que escribir. Quaerere audere est iter sapientiae - atreverse a preguntar es el camino de la sabiduría"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750779263522",
+      "conditions": "#QNA-LOC-Contacto",
+      "dialog_node": "node_7_1750779401290",
+      "previous_sibling": "node_2_1750779351740"
+    },
+    {
+      "type": "standard",
+      "title": "edificio",
+      "parent": "node_10_1750779263522",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#QNA-LOC-Edificio",
+      "dialog_node": "node_7_1750779449907",
+      "previous_sibling": "node_7_1750779401290"
+    },
+    {
+      "type": "standard",
+      "title": "alumni_NoMásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡De acuerdo! Tener figuras que guíen tu viaje es una gran opción. Como tu guía, estaré aquí para lo que necesites."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1750797737918",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#afirmación && $esperando_info",
+      "dialog_node": "node_7_1750797840293",
+      "previous_sibling": "node_8_1750797782614"
+    },
+    {
+      "type": "standard",
+      "title": "Virgil",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me llamo VirgiBot porque me inspiro en Virgilio, el inmortalizado poeta romano que ha sido tan influyente a lo largo de la historia. Aunque Homero siempre recibe más atención que yo... ¿En qué puedo ayudarte?"
+              },
+              {
+                "text": "Efectivamente, me baso en Virgilio, porque, como hizo con Dante, pretendo guiarte mientras buscas tu propio camino. Indícame, viajero, en qué puedo ayudarte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1750709909019",
+      "conditions": "#CHI-Virgil",
+      "dialog_node": "node_8_1750711080247",
+      "previous_sibling": "node_5_1750710743169"
+    },
+    {
+      "type": "standard",
+      "title": "Recipientes-MásInfo-WIP",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ENVIAR A INTENT POR DEFINIR"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1750765952177",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#afirmación && $esperando_info",
+      "dialog_node": "node_8_1750766015160"
+    },
+    {
+      "type": "folder",
+      "title": "ADMISIÓN-MATRÍCULA",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1750767333240",
+      "previous_sibling": "node_9_1750750531067"
+    },
+    {
+      "type": "standard",
+      "title": "perfprof_MásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Además, el máster prepara perfiles para:  \n– Gestores de redes sociales académicas \n– Conservadores de datos en investigación  \n– Creadores de portales, blogs y recursos web  \n– Analistas de textualidades para empresas e instituciones\nPuedes consultar el listado completo de salidas profesionales y ejemplos de proyectos reales <a href=\"https://www.ucm.es/master-letrasdigitales/perfil-profesional\" target=\"_blank\">aquí</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1750776134196",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#afirmación && $esperando_info",
+      "dialog_node": "node_8_1750776225093"
+    },
+    {
+      "type": "standard",
+      "title": "garantía_NoMásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Está bien, poeta. La calidad del Máster está, por tanto, garantizada. Hazme saber si necesitas algo más."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1750776673964",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#negación && $esperando_info",
+      "dialog_node": "node_8_1750776917509",
+      "previous_sibling": "node_10_1750776839740"
+    },
+    {
+      "type": "standard",
+      "title": "alumni_MásInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En <a href=\"https://www.ucm.es/master-letrasdigitales/alumni\" target=\"_blank\"> este enlace </a>puedes acceder al elenco de alumni con los enlaces a sus perfiles profesionales. Tu viaje es único, poeta, pero siempre está bien tener algun referente."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1750797737918",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "#afirmación && $esperando_info",
+      "dialog_node": "node_8_1750797782614"
+    },
+    {
+      "type": "standard",
+      "title": "campusvirtual_menosInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En cualquier caso, puedes preguntarme cualquier otra duda. Estoy aquí para servirte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1750797890678",
+      "context": {
+        "esperando_info": ""
+      },
+      "conditions": "#negación && $esperando_info",
+      "dialog_node": "node_8_1750798008446",
+      "previous_sibling": "node_1_1750797921461"
+    },
+    {
+      "type": "folder",
+      "title": "INFORMACIÓN-GENERAL",
+      "dialog_node": "node_9_1750750531067",
+      "previous_sibling": "node_7_1750709909019"
+    },
+    {
+      "type": "standard",
+      "title": "Destinatarios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se pretende completar la formación de graduados en:\n ➡️ Titulaciones como Filología, Traducción e Interpretación con conocimientos de informática. ➡️ Titulaciones como Informática e Ingenierías con conocimientos de filología ➡️ Disciplinas sociales con conocimientos de informática y filología."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Quieres tener más información sobre los criterios de admisión?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1750750531067",
+      "context": {
+        "esperando_info": true
+      },
+      "conditions": "#QNA-INFGEN-Destinatarios",
+      "dialog_node": "node_9_1750765952177",
+      "previous_sibling": "node_10_1750754762823"
+    },
+    {
+      "type": "standard",
+      "title": "objetivos y competencias",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🎯 El Máster pretende formar especialistas capaces de integrar tecnologías digitales en la investigación, la docencia y la producción cultural.\n\nEstá diseñado para graduados en Humanidades que deseen adquirir competencias técnicas y para perfiles técnicos que deseen trabajar en el ámbito cultural y textual. Se proporcionan conocimientos avanzados en informática, cibercultura, tecnologías web, organización de información digital, y producción de materiales multimedia y literarios digitales."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "🧠 Las competencias que se persiguen son:\n– Crear, editar y producir recursos digitales.  \n– Usar herramientas TIC y lenguajes de marcado para gestionar estructuras digitales. \n– Diseñar experiencias de aprendizaje online fundamentadas en teorías educativas.  \n– Aplicar criterios éticos y analíticos en la creación de contenidos digitales y el análisis cultural.  \n– Trabajar en equipo, planificar proyectos digitales y tomar decisiones.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "💡 Puedes consultar el listado completo de competencias <a href=\"https://www.ucm.es/master-letrasdigitales/objetivos-y-competencias\" target=\"_blank\">aquí</a>, poeta. Hazme saber si necesitas algo más"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750775600949",
+      "conditions": "#QNA-PROGR-ObjetivosyCompetencias",
+      "dialog_node": "node_9_1750775914291",
+      "previous_sibling": "node_4_1750775870307"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📚 La Tesis de Fin de Máster  es un proyecto obligatorio de 12 créditos que a desarrollar en el segundo semestre. Puede ser una investigación teórica o una propuesta aplicada: edición digital, corpus, producción multimedia, etc. Se debe presentar una propuesta con antelación suficiente con la guía de un tutor o tutora. Es el broche final al camino de tu aprendizaje, poeta.\nPara más información sobre convocatorias y plazos, <a href=\"https://www.ucm.es/master-letrasdigitales/trabajo-fin-de-master\" target=\"_blank\">visita la página.</a>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:TFM",
+      "dialog_node": "response_10_1750777772427",
+      "previous_sibling": "response_4_1750777734170"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🚍 Varias opciones para llegar en autobús.\n\nPara llegar al Edificio Multiusos E, puedes utilizar:\n🚏Parada \"Filosofía B\" en las líneas F y G.\n🚏Parada \"Paraninfo - Derecho\" en la línea U.\n\nAdemás, puedes usar los autobuses de la EMT.\n🚏Parada \"Estadística - Geografía e Historia\" en la línea 133\n🚏Parada \"Avenida Complutense - Jardín Botánico\" en la línea 132\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750779668058",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1750780039075"
+      },
+      "conditions": "@medio:bus",
+      "dialog_node": "response_10_1750780066664",
+      "previous_sibling": "response_9_1750780024714"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El máster tiene una duración de un curso, dos cuatrimestres."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1750766386953",
+      "conditions": "@descriptor_específico:duración",
+      "dialog_node": "response_1_1750766528214",
+      "previous_sibling": "response_3_1750766516235"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La preinscripción y la matrícula para el Máster se realizan de forma sencilla online.\n¿En cuál de ambas estás interesado?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Opciones",
+            "options": [
+              {
+                "label": "Plataforma de preinscripción",
+                "value": {
+                  "input": {
+                    "text": "Plataforma de preinscripción"
+                  }
+                }
+              },
+              {
+                "label": "Plataforma de matrícula",
+                "value": {
+                  "input": {
+                    "text": "Plataforma de matrícula"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1750767677807",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1750769410995",
+      "previous_sibling": "response_5_1750769100101"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¡No te preocupes! Aunque en la plataforma te avisen de que las asignaturas se solapan, en la práctica esto no ocurre porque se ofrecen en viernes alternos y siempre te dejan matricularte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1750769953288",
+      "conditions": "@consulta_específica_matr:solapamiento",
+      "dialog_node": "response_1_1750769968860"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si no te aparecen las asignaturas de formación específica (como Complementos de Informática), no debes preocuparte. Una vez terminada la matrícula de la titulación correspondiente se accederá a otro vagón con las asignaturas de Formación Complementaria."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1750769953288",
+      "conditions": "@consulta_específica_matr:formesp",
+      "dialog_node": "response_1_1750769996900",
+      "previous_sibling": "response_1_1750769968860"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hay que escoger uno de los tres itinerarios. Cada uno de consta de dos asignaturas optativas. \nSe puede dividir el máster en dos cursos y matricularse de un otro itinerario, pero no hay tiempo para cursar varios itinerarios de optativas a la vez.  \nPor tanto, no se pueden mezclar optativas de diferentes itinerarios."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1750769953288",
+      "conditions": "@consulta_específica_matr:itinerarios",
+      "dialog_node": "response_1_1750770012286",
+      "previous_sibling": "response_1_1750769996900"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los precios de los estudios de Grado y Máster están decretados por la C.A. de Madrid.\n\nPuede pagarse tanto en un pago único como en varios fraccionados.\n\nSi quieres calcular cuánto costaría tu matrícula en función de los créditos que deseas cursar, te dejo <a href=\"https://www.ucm.es/simulador/master-letrasdigitales\" target=\"_blank\">esta herramienta</a>. ¡Espero que te sea útil!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1750774644674",
+      "conditions": "@nacionalidad:comunitario",
+      "dialog_node": "response_1_1750774842289",
+      "previous_sibling": "response_5_1750774659832"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Las prácticas están diseñadas para que se alineen con los contenidos del máster. Algunos de los perfiles profesionales en los que podrías trabajar incluyen:- Organización de información- Cibercultura y gestión de redes- Tecnologías web- Edición digital- Creación de materiales para el aprendizaje online- Proyectos de colecciones digitales"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1750799828178",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1750800074040"
+      },
+      "conditions": "@consulta_prácticas:perfiles",
+      "dialog_node": "response_1_1750799991308",
+      "previous_sibling": "response_6_1750799971425"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poeta, ahora mismo no puedo acceder a esta información por una cuestión técnica. Si me das un momento y vuelves a preguntar, puedo intentarlo de nuevo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1750884393438",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1753712439554",
+      "previous_sibling": "response_7_1753551487573"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En cuanto a las consultas sobre matriculación en asignaturas específicas, puedo ayudarte en lo siguiente:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Opciones",
+            "options": [
+              {
+                "label": "Solapamiento de asignaturas",
+                "value": {
+                  "input": {
+                    "text": "Problema en matriculación solapamiento"
+                  }
+                }
+              },
+              {
+                "label": "Asignaturas de Formación Específica",
+                "value": {
+                  "input": {
+                    "text": "Asignaturas de Formación Específica"
+                  }
+                }
+              },
+              {
+                "label": "Itinerarios",
+                "value": {
+                  "input": {
+                    "text": "itinerarios"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1750769953288",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1750770022392",
+      "previous_sibling": "response_1_1750770012286"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💾 Complementos de Informática está pensado para estudiantes provenientes de áreas humanísticas que deban adquirir los fundamentos técnicos necesarios.\n\nSe explora la arquitectura de un computador, la estructura de las redes y las aplicaciones , los lenguajes de programación y marcado, esenciales para estructurar e interpretar textos en el entorno digital.\nPuedes ver la ficha técnica <a href=\"https://www.ucm.es/master-letrasdigitales/file/ficha_0_complementos_clemente_bernabe_270721-2-\" target=\"_blank\"> aquí</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:complementos_informática",
+      "dialog_node": "response_2_1750776986320"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🎬 Producción de Materiales Multimedia versa sobre la creación de obras digitales interactivas.\n\nUso de herramientas para editar y montar contenido digital, crear proyectos como libros interactivos o ficciones y gestionar un proyecto multimedia completo. Una asignatura 100 % práctica para explorar el potencial expresivo de las textualidades electrónicas. <a href=\"https://www.ucm.es/master-letrasdigitales/file/ficha_1_produccion-de-materiales-multimedia?ver\" target=\"_blank\">Ficha técnica.</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:prod_mat_mult",
+      "dialog_node": "response_2_1750778802017",
+      "previous_sibling": "response_3_1750778766783"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🗂 Planificación y Gestión de Proyectos ofrece las bases teóricas y prácticas para dirigir proyectos digitales en el ámbito humanístico. Se estudian normas como ISO/IEC 12207 y metodologías como Scrum, aplicadas a revistas científicas, bibliotecas digitales o corpus textuales. Se adquieren herramientas clave para liderar proyectos en el entorno profesional de las Letras Digitales. <a href=\"https://www.ucm.es/master-letrasdigitales/file/ficha_7-plan_gest_proyectos_rramos_fdez_pedrosa_caballos_v1-2021-2022\" target=\"_blank\">Ficha técnica.</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:plan_gest_proy",
+      "dialog_node": "response_2_1750778962162",
+      "previous_sibling": "response_8_1750778960796"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🗃 Colecciones y Ediciones Digitales es una introducción a la creación de ediciones críticas y a la gestión de bibliotecas digitales. Se estudian modelos filológicos tradicionales y nuevas prácticas digitales, usando software especializado para editar y conservar materiales filológicos. Una asignatura clave para entender cómo se transforman y preservan los textos en el ecosistema digital. <a href=\"https://www.ucm.es/master-letrasdigitales/file/ficha-6-colecciones-digitales-2023-24\" target=\"_blank\">Ficha técnica.</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:colecciones_digitales",
+      "dialog_node": "response_2_1750779064793",
+      "previous_sibling": "response_2_1750778962162"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El Máster se constituye por 60 créditos ECTS. La matrícula mínima es de 18 ECTS."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1750766386953",
+      "conditions": "@descriptor_específico:ects",
+      "dialog_node": "response_3_1750766490839",
+      "previous_sibling": "response_8_1750766465277"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La carga de trabajo estimada semanal es de 10-15 horas por asignatura (durante 16-14 semanas)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1750766386953",
+      "conditions": "@descriptor_específico:carga_lectiva",
+      "dialog_node": "response_3_1750766516235",
+      "previous_sibling": "response_8_1750766503577"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El formulario de preinscripción al Máster se realiza de forma online a través de la Aplicación Online de solicitud de Admisión.\n\nSi todavía no tienes una cuenta @ucm (no has estudiado en la Universidad), primero tendrás que crear una siguiendo los pasos en la Aplicación."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Antes de comenzar tu solicitud de preinscripción, asegúrate de revisar los plazos y la documentación que debes tener preparada. ¿Quieres que te indique un contacto que te podría ayudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750767677807",
+      "context": {
+        "esperando_info_preinscr": true
+      },
+      "conditions": "@tipo_consulta_plataforma:preinscripción",
+      "dialog_node": "response_3_1750767687295",
+      "previous_sibling": "node_2_1750769233513"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "✨ Literatura y Arte Digital explora cómo las textualidades se reinventan en el entorno digital. Se analizan géneros emergentes, vanguardias, narrativas transmedia y estéticas del reciclaje, así como obras multimedia. La asignatura combina teoría crítica con talleres de escritura digital creativa, abordando conceptos como autor, lector o interactividad desde una perspectiva contemporánea. <a href=\"https://www.ucm.es/master-letrasdigitales/file/ficha-1_literatura-y-arte-digital\" target=\"_blank\">Ficha técnica.</a>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:literatura_arte_digital",
+      "dialog_node": "response_3_1750778766783",
+      "previous_sibling": "response_4_1750778665112"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El Edificio Multiusos E alberga las clases, conferencias y actividades, y por tanto es el centro neurálgico de la actividad. Se encuentra en la explanada sobre María Zambrano, a unos pasos de las facultades de Geografía e Historia y Filología/Filosofía.  El edificio dispone de baños, cafetería, conserjería y máquinas expendedoras. Puedes encontrarlo <a href=\"https://maps.app.goo.gl/4KZz9g6t1VKBntUa7\" target=\"_blank\"> aquí</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1750779449907",
+      "conditions": "@edificio:EdifE",
+      "dialog_node": "response_3_1750779463906"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El  <a href=\"https://maps.app.goo.gl/4KZz9g6t1VKBntUa7\" target=\"_blank\"> Edificio Multiusos E </a> alberga las clases, talleres, conferencias y actividades del Máster, y por tanto es el centro neurálgico de la actividad. Sin embargo, es posible que debas visitar otro edificio de la <a href=\"https://maps.app.goo.gl/GxeThRJ6Ny88Es196\" target=\"_blank\"> Facultad de Filología</a> o la  <a href=\"https://maps.app.goo.gl/9kJThNibYC59wryf6\" target=\"_blank\">Facultad de Informática</a> para acudir a alguna tutoría."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1750779449907",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1750779581291",
+      "previous_sibling": "response_7_1750779535265"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Una de las actividades estrella del Máster es la colaboración anual con la Universidad París 8, que se desarrolla en el módulo de Creación Digital. Consiste en la creación de libros interactivos de forma colaborativa e incluye la visita de sus alumnos a las instalaciones del Máster"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1750798175221",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1750798292261"
+      },
+      "conditions": "@actividades:paris8",
+      "dialog_node": "response_3_1750798193227",
+      "previous_sibling": "node_2_1750798292261"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los precios de los estudios de Grado y Máster están decretados por la C.A. de Madrid.\n\nPuede pagarse tanto en un pago único como en varios fraccionados.\n\nSi quieres calcular cuánto costaría tu matrícula en función de los créditos que deseas cursar, te dejo <a href=\"https://www.ucm.es/simulador/master-letrasdigitales\" target=\"_blank\">esta herramienta</a>. ¡Espero que te sea útil!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1750774644674",
+      "conditions": "@nacionalidad:con_residencia",
+      "dialog_node": "response_4_1750774863939",
+      "previous_sibling": "response_1_1750774842289"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🌐 <a href=\"https://www.ucm.es/master-letrasdigitales/file/ficha_6_cibercultura22-23?ver\" target=\"_blank\">Cibercultura</a> ofrece una visión crítica y panorámica de los fenómenos culturales del último siglo, desde la textualidad electrónica hasta el ciberfeminismo. Se analiza como el Internet, el hipertexto o las tecnologías digitales han transformado la creación y circulación cultural. Todo a través de un enfoque teórico-práctico, con materiales semanales, casos de estudio y debates."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:cibercultura",
+      "dialog_node": "response_4_1750777574792",
+      "previous_sibling": "response_5_1750777515292"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📘 Edición y Publicación Electrónica pretende preparar al alumno para editar documentos digitales con herramientas y estándares del entorno profesional. Trabajo con formatos PDF y EPUB, manejo de imágenes, tipografías y derechos digitales. Uso de programas como SIGIL o LaTeX. Con enfoque teórico-práctico y orientado al mercado editorial y digital actual."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:ed_pub_elec",
+      "dialog_node": "response_4_1750777734170",
+      "previous_sibling": "response_6_1750777651094"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esta materia, que consta de las asignaturas: “Literatura y arte digital” y “Producción de materiales multimedia”, está diseñada para formar a los estudiantes en el ámbito de la creación de contenidos multimedia para las artes y la literatura. \n¿A cuál de las dos asignaturas te refieres?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Opciones",
+            "options": [
+              {
+                "label": "Literatura y Arte Digital",
+                "value": {
+                  "input": {
+                    "text": "Literatura y Arte Digital"
+                  }
+                }
+              },
+              {
+                "label": "Producción de materiales multimedia",
+                "value": {
+                  "input": {
+                    "text": "Producción de materiales multimedia"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:creación_digital",
+      "dialog_node": "response_4_1750778665112",
+      "previous_sibling": "response_10_1750777772427"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🎓 Producción de Materiales Educativos es una asignatura centrada en crear recursos didácticos interactivos como libros digitales yvideojuegos educativos. Se exploran MOOCs, conceptos de narrativa no lineal y herramientas como Unity o e-Adventure. La asignatura combina teoría con práctica intensiva diseñar experiencias de aprendizaje innovadoras y eficaces en entornos digitales. <a href=\"https://www.ucm.es/master-letrasdigitales/file/ficha8-produccion-multimedia_b_21-22-2-\" target=\"_blank\">Ficha técnica.</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:prod_mat_ed",
+      "dialog_node": "response_4_1750778862960",
+      "previous_sibling": "response_9_1750778849628"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los talleres son un elemento esencial de la enseñanza. Ponentes de gran prestigio organizan sesiones cada año donde se exponen avances y herramientas útiles en sectores clave y se enseña a utilizar plataformas de valor. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1750798175221",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1750798292261"
+      },
+      "conditions": "@actividades:talleres",
+      "dialog_node": "response_4_1750798228227",
+      "previous_sibling": "response_5_1750798217266"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si ya has sido aceptado, ¡enhorabuena, viajero! Recuerda que si tienes alguna duda, siempre puedes contactar con la Coordinación del Máster.\n\n¿Quieres que te enumere los pasos a seguir ahora? Puedo ayudarte con tu matrícula."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750767677807",
+      "context": {
+        "esperando_info_matr": true
+      },
+      "conditions": "@tipo_consulta_plataforma:matrícula",
+      "dialog_node": "response_5_1750769100101",
+      "previous_sibling": "response_3_1750767687295"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Los precios de los estudios de Grado y Máster están decretados por la C.A. de Madrid.\n\nPuede pagarse tanto en un pago único como en varios fraccionados.\n\nSi quieres calcular cuánto costaría tu matrícula en función de los créditos que deseas cursar, te dejo <a href=\"https://www.ucm.es/simulador/master-letrasdigitales\" target=\"_blank\">esta herramienta</a>. ¡Espero que te sea útil!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1750774644674",
+      "conditions": "@nacionalidad:español",
+      "dialog_node": "response_5_1750774659832"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "En el caso de estudiantes extranjeros no comunitarios sin residencia o Convenio Bilateral, se aplicará el precio público correspondiente a 3ª  matrícula, según nivel de experimentalidad de los estudios elegidos. \nVisita <a href=\"https://www.ucm.es/estudiantes-internacionales-y-pagos\" target=\"_blank\"> esta página </a> para tener información más actualizada."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1750774644674",
+      "conditions": "@nacionalidad:sin_residencia",
+      "dialog_node": "response_5_1750774883788",
+      "previous_sibling": "response_4_1750774863939"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🧷 Organización y Metadatos proporciona los fundamentos necesarios para organizar, describir y representar textos digitales estructurados. Se enseñan lenguajes de marcado, desde HTML y XML hasta estándares más avanzados como RDF u OWL, así como herramientas como Protégé para ontologías. Todo a través de un enfoque teórico-práctico y colaborativo. <a href=\"https://www.ucm.es/master-letrasdigitales/file/ficha_1b-organizacion_yolanda_garcia?ver=n\" target=\"_blank\">Ficha técnica</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:organización_y_metadatos",
+      "dialog_node": "response_5_1750777515292",
+      "previous_sibling": "response_7_1750777461822"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El Máster celebra frecuentemente conferencias que enriquecen la experiencia educativa del alumno. Los estudiantes son informados de los eventos que se celebran por los canales de comunicación establecidos, principalmente el correo electrónico"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1750798175221",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1750798292261"
+      },
+      "conditions": "@actividades:conferencias",
+      "dialog_node": "response_5_1750798217266",
+      "previous_sibling": "response_3_1750798193227"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poeta, mis disculpas, no he entendido bien a qué asignatura te refieres. ¿Podrías aclarármelo? Con fortuna, podré guiarte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1750865776083",
+      "previous_sibling": "response_2_1750779064793"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poeta, ahora mismo no puedo acceder a esta información por una cuestión técnica. Si me das un momento y vuelves a preguntar, puedo intentarlo de nuevo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750884396502",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1753713409783",
+      "previous_sibling": "response_8_1753551360116"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Antes de seguir, necesito saber información sobre ti. Dime, ¿en qué situación te encuentras?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Opciones",
+            "options": [
+              {
+                "label": "Estudiante de la UE",
+                "value": {
+                  "input": {
+                    "text": "Precio matrícula si soy español"
+                  }
+                }
+              },
+              {
+                "label": " Estudiante extranjero NO comunitario con residencia en España o de país con Convenio Bilateral",
+                "value": {
+                  "input": {
+                    "text": "Precio matrícula si soy residente"
+                  }
+                }
+              },
+              {
+                "label": " Estudiante extranjero NO comunitario SIN residencia o de país sin Convenio Bilateral",
+                "value": {
+                  "input": {
+                    "text": "Precio matrícula si soy extranjero NO comunitario"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1750774644674",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1750774741802",
+      "previous_sibling": "response_6_1750775274697"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Antes de seguir, necesito saber información sobre ti. Dime, ¿en qué situación te encuentras?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Opciones",
+            "options": [
+              {
+                "label": "Estudiante de la UE",
+                "value": {
+                  "input": {
+                    "text": "Precio matrícula si soy español"
+                  }
+                }
+              },
+              {
+                "label": "Estudiante extranjero NO comunitario con residencia en España o de país con Convenios Bilateral",
+                "value": {
+                  "input": {
+                    "text": "Precio matrícula si soy residente"
+                  }
+                }
+              },
+              {
+                "label": "Estudiante extranjero NO comunitario SIN residencia o de país sin Convenio Bilateral",
+                "value": {
+                  "input": {
+                    "text": "Precio matrícula si soy extracomunitario"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1750774644674",
+      "context": {
+        "esperando_info": null
+      },
+      "conditions": "$esperando_info",
+      "dialog_node": "response_6_1750775274697",
+      "previous_sibling": "response_5_1750774883788"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "💻 Tecnologías Web es una introducción al desarrollo de recursos digitales. Construcción de páginas web con HTML5, CSS3 y JavaScript. Desarrollo de aplicaciones web, Bootstrap y programación básica en PHP desde una perspectiva orientada a la textualidad electrónica y los entornos digitales humanísticos. <a href=\"https://www.ucm.es/master-letrasdigitales/file/ficha_tecnologiasweb_carloscervigon\" target=_blank\"> Ficha técnica</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:tecnologías_web",
+      "dialog_node": "response_6_1750777651094",
+      "previous_sibling": "response_4_1750777574792"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La evaluación de las prácticas se basa en dos partes: El informe del tutor de la entidad (50%) y tu memoria final (50%), dividida en 70% memoria escrita y 30% presentación oral. Puedes sumar un 10% adicional si aportas certificados de formación reciente, como cursos del CSIM o de la UCM."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1750799828178",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1750800074040"
+      },
+      "conditions": "@consulta_prácticas:evaluación",
+      "dialog_node": "response_6_1750799971425",
+      "previous_sibling": "node_6_1750800074040"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📜 Complementos de Filología proporciona herramientas para estudiantes de perfil técnico que deban familiarizarse con el enfoque filológico y textual\n.\nSe estudian tipos de textos, medios de transmisión y modelos editoriales, lingüística textual, crítica de textos y estudios literarios contemporáneos, con su aplicación en entornos digitales.\nPuedes ver la ficha técnica <a href=\"https://www.ucm.es/data/cont/media/www/pag-80549/ficha_0_complementos__S%C3%A1ez_Fdez_Moreno_Laleva.pdf\" target=\"_blank\">aquí.</a>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:complementos_filología",
+      "dialog_node": "response_7_1750777461822",
+      "previous_sibling": "response_2_1750776986320"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Facultad de Informática se encuentra en la C/ Prof. José García Santesmases, 9, a unos 5 minutos tras la Facultad de Derecho.\n\nEl edificio cuenta con, además de las aulas y los despachos, biblioteca, cafetería, salón de actos y laboratorios. Aquí te dejo <a href=\"https://maps.app.goo.gl/9kJThNibYC59wryf6\" target=\"_blank\">su dirección</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1750779449907",
+      "conditions": "@edificio:facinf",
+      "dialog_node": "response_7_1750779535265",
+      "previous_sibling": "response_8_1750779498263"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🚗Si deseas llegar en coche, en primer lugar, asegúrate de tener la pegatina medioambiental correspondiente y de hacer un uso responsable.  🅿️ Hay dos estacionamientos públicos cerca de los edificios clave: detrás de la Facultad de Filología Edificio D y entre las Facultades de Derecho y Filosofía."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750779668058",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1750780039075"
+      },
+      "conditions": "@medio:automóvil",
+      "dialog_node": "response_7_1750780091811",
+      "previous_sibling": "response_10_1750780066664"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? $webhook_result_2.output.generic[0].text ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1750884393438",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "intents": [
+              {
+                "intent": "WEB-Disciplinas"
+              }
+            ]
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_7_1753551487573"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El Máster cuenta con 25 vacantes por cada curso académico. Te recomiendo estar atento a las novedades que puedan publicarse en la Web."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1750766386953",
+      "conditions": "@descriptor_específico:plazas",
+      "dialog_node": "response_8_1750766465277",
+      "previous_sibling": "node_10_1750766593280"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La modalidad del máster es semipresencial (80% a distancia, 20% presencial). Las clases son normalmente los viernes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1750766386953",
+      "conditions": "@descriptor_específico:modalidad",
+      "dialog_node": "response_8_1750766503577",
+      "previous_sibling": "response_3_1750766490839"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "📚 Fundamentos del e-learning trata sobre el mundo del aprendizaje digital, combinando teoría y práctica para diseñar, implementar y evaluar entornos formativos. Se enseñan contenidos sobre diseño didáctico, plataformas educativas, SCORM, propiedad intelectual, accesibilidad y herramientas colaborativas.\n\nEsta es la <a href=\"https://www.ucm.es/master-letrasdigitales/file/ficha_4-fundamentoselearning-_20_21-1\" target=\"_blank\">ficha técnica</a> por si quieres conocer más información."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:fund_elearning",
+      "dialog_node": "response_8_1750778870846",
+      "previous_sibling": "response_4_1750778862960"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esta materia, que consta de las asignaturas: “Planificación y gestión de proyectos” y “Colecciones y ediciones electrónicas”, está diseñada para estudiantes interesados en desarrollar una profesión en el ámbito de las instituciones culturales y su proceso de digitalización (museos, bibliotecas, universidades).\n\n¿A cuál de las dos asignaturas te refieres?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Opciones",
+            "options": [
+              {
+                "label": "Planificación y gestión de proyectos",
+                "value": {
+                  "input": {
+                    "text": "Planificación y gestión de proyectos"
+                  }
+                }
+              },
+              {
+                "label": "Colecciones digitales",
+                "value": {
+                  "input": {
+                    "text": "Colecciones digitales"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:colec_ed_dig",
+      "dialog_node": "response_8_1750778960796",
+      "previous_sibling": "response_8_1750778870846"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El edificio principal (A) de la Facultad de Filología se encuentra en la Plaza Menéndez Pelayo, subiendo un tramo de escaleras desde el Edificio Multiusos E.\n\nEl edificio dispone de amplios baños, una enorme cafetería con buen ambiente, conserjería y máquinas expendedoras. Puedes encontrarlo <a href=\"https://maps.app.goo.gl/GxeThRJ6Ny88Es196\" target=\"_blank\"> aquí</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1750779449907",
+      "conditions": "@edificio:facfil",
+      "dialog_node": "response_8_1750779498263",
+      "previous_sibling": "response_3_1750779463906"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tienes varias opciones para llegar a clase, bien via transporte público o con tu vehículo. Dime, poeta, ¿en qué estás interesado?\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Opciones",
+            "options": [
+              {
+                "label": "🚇 Metro",
+                "value": {
+                  "input": {
+                    "text": "llegar en metro"
+                  }
+                }
+              },
+              {
+                "label": " 🚍Autobús",
+                "value": {
+                  "input": {
+                    "text": "llegar en autobús"
+                  }
+                }
+              },
+              {
+                "label": " 🚗Automóvil",
+                "value": {
+                  "input": {
+                    "text": "llegar en coche"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1750779668058",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1750780108038",
+      "previous_sibling": "response_7_1750780091811"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La enseñanza va más allá de las asignaturas, las prácticas y el TFM. A pesar de ser un Máster híbrido, las sesiones presenciales, como talleres y conferencias, son clave. Los estudiantes tienen la oportunidad de conocer los sectores laborales en profundidad, aprender a manejar herramientas útiles y colaborar en proyectos. ¿Quieres saber algo en concreto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Opciones",
+            "options": [
+              {
+                "label": "Colaboración con París 8",
+                "value": {
+                  "input": {
+                    "text": "Colaboración con París 8"
+                  }
+                }
+              },
+              {
+                "label": "Conferencias",
+                "value": {
+                  "input": {
+                    "text": "Conferencias"
+                  }
+                }
+              },
+              {
+                "label": "Talleres",
+                "value": {
+                  "input": {
+                    "text": "Talleres"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1750798175221",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1750798243756",
+      "previous_sibling": "response_4_1750798228227"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Las prácticas curriculares son una parte clave. Se realizan durante el segundo semestre, con una duración de 300 horas. El proyecto de prácticas se evalúa mediante un informe del tutor y una memoria personal.👉 Puedes preguntarme por la evaluación, los perfiles de prácticas o las ofertas disponibles, o preguntarme por las entidades colaboradoras"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1750799828178",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1750800034774",
+      "previous_sibling": "response_9_1750800008156"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<? $webhook_result_1.output.generic[0].text ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1750884396502",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_8_1753551360116"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Descriptores operativos del Máster. 📚 Estructura: 60 ECTS (mínimo 18 por matrícula), 2 cuatrimestres. 🎓 Modalidad: 80% online, 20% presencial. ⏳ Carga semanal: ≈15 horas por asignatura (14-16 semanas). 👥 Plazas: 25. 🌍 Idioma: Español + lecturas en inglés. 🏛 Centro: Facultad de Filología e Informática."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1750766386953",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1750766541791",
+      "previous_sibling": "response_1_1750766528214"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esta materia, que consta de las asignaturas: “Fundamentos del e-learning” y “Producción de materiales educativos”, está diseñada para formar a los estudiantes en el ámbito de la creación de contenidos educativos en línea. \n¿A cuál de las dos asignaturas te refieres?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Opciones",
+            "options": [
+              {
+                "label": "Producción de materiales educativos",
+                "value": {
+                  "input": {
+                    "text": "Producción de materiales educativos"
+                  }
+                }
+              },
+              {
+                "label": "Fundamentos del e-learning",
+                "value": {
+                  "input": {
+                    "text": "Fundamentos del e-learning"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1750776973437",
+      "conditions": "@asignaturas:aprendizaje_en_línea",
+      "dialog_node": "response_9_1750778849628",
+      "previous_sibling": "response_2_1750778802017"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "🚇 El campus Ciudad Universitaria está servido por la Línea 6 de Metro.Puedes utilizar dos estaciones:🚉 Vicente Aleixandre: dirígete hacia el oeste por la C/ José Antonio Novais y llegarás en 20 minutos.🚉 Ciudad Universitaria: dirígete hacia el norte por la Avda. Complutense y llegarás en 15 minutos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1750779668058",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1750780039075"
+      },
+      "conditions": "@medio:metro",
+      "dialog_node": "response_9_1750780024714",
+      "previous_sibling": "node_6_1750780039075"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Las ofertas de prácticas cubren muchos ámbitos: desde industrias culturales, editoriales o digitales hasta asociaciones, bibliotecas, centros de investigación o formación. Todo el proceso se gestiona a través de GIPE: https://gipe.ucm.es\nTe recomiendo ver el vídeo explicativo y consultar el manual de ayuda en la misma web."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1750799828178",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1750800074040"
+      },
+      "conditions": "@consulta_prácticas:oferta",
+      "dialog_node": "response_9_1750800008156",
+      "previous_sibling": "response_1_1750799991308"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "language": "es",
+  "description": "created for assistant ff3e18e2-5a7c-4080-87fd-2b17a3cdffe7",
+  "name": "VirgiBot-dialog"
+}

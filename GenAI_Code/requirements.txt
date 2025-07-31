@@ -1,0 +1,7 @@
+flask
+gunicorn
+python-dotenv
+logging
+groq
+requests
+beautifulsoup4
